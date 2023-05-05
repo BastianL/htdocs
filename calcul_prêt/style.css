@@ -1,0 +1,21 @@
+td{
+    border-color:black;
+    border-radius: 5mm;
+    border-collapse: separate;
+}
+
+tr{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align:center;
+}
+
+p{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5mm;
+}
+
+body{
+    background-color:azure;
+}

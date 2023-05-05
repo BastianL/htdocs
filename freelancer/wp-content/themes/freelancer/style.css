@@ -1,0 +1,93 @@
+/*! 
+ Theme Name:   Freelancer
+ Version:      1.0
+ Author:       Bastian Lisrin
+*/
+
+body{
+    width: 1400px;
+    background-color:#222222;
+    color:white;
+    list-style-type:none;
+}
+
+.crm-section{
+    margin-left: 50px;
+}
+p{
+    color:#CCCCCC
+}
+a{
+    color: #CCCC33;
+}
+a:hover{
+    color:#339933;
+}
+h1{
+    background-color:black;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:yellow;
+    padding: 1% 10px;
+
+}
+main{
+    display:flex;
+    flex-flow: row;
+}
+.crm-aside{
+    width: 20%;
+    margin-left: 3mm;
+}
+
+.crm-section aside{
+    background-color:black;
+    padding:0.5% 10px;
+    margin-bottom: 5mm;
+}
+
+.wp-block-categories-list{
+    list-style-type: none;
+    text-align:left;
+    padding-left: 0;
+}
+.wp-block-group__inner-container h2{
+    color:yellow;
+}
+
+article{
+    padding-left:10px;
+    background-color:#FFFFFF11
+}
+
+.wp-block-calendar table caption{
+    color:white;
+}
+
+p{
+    margin-top : 0px;
+    margin-bottom : 0px;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+}
+
+.crm-header{
+    margin-bottom: 1mm;
+}
+
+h2{
+    background-color:black;
+    padding : 2mm;
+    margin-bottom:0px;
+}
+
+.wp-block-categories-list{
+    background-color: #FFFFFF11;
+    margin-top:0px;
+    padding-left:2mm;
+}
+
+.wp-block-archives{
+    background-color: #FFFFFF11;
+    margin-top:5px;
+}
