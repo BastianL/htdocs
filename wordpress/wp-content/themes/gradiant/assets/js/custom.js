@@ -274,10 +274,39 @@
      */
     TiltFx.prototype._initEvents = function() {
         var self = this;
-        
-        this.mousemoveFn = function(ev) {
-            requestAnimationFrame(function() { self._layout(ev); });
-        };
+		
+		this.mouseenterFn = function() {
+			for(var key in self.DOM.animatable) {
+				anime.remove(self.DOM.animatable[key]);
+			}
+		};
+		
+		this.mousemoveFn = function(ev) {
+			requestAnimationFrame(function() { self._layout(ev); });
+		};
+		
+		this.mouseleaveFn = function(ev) {
+			requestAnimationFrame(function() {
+				for(var key in self.DOM.animatable) {
+					if( self.options.movement[key] == undefined ) {continue;}
+					anime({
+						targets: self.DOM.animatable[key],
+						duration: self.options.movement[key].reverseAnimation != undefined ? self.options.movement[key].reverseAnimation.duration || 0 : 1,
+						easing: self.options.movement[key].reverseAnimation != undefined ? self.options.movement[key].reverseAnimation.easing || 'linear' : 'linear',
+						elasticity: self.options.movement[key].reverseAnimation != undefined ? self.options.movement[key].reverseAnimation.elasticity || null : null,
+						scaleX: 1,
+						scaleY: 1,
+						scaleZ: 1,
+						translateX: 0,
+						translateY: 0,
+						translateZ: 0,
+						rotateX: 0,
+						rotateY: 0,
+						rotateZ: 0
+					});
+				}
+			});
+		};
 		
         this.DOM.el.addEventListener('mousemove', this.mousemoveFn);
         this.DOM.el.addEventListener('mouseleave', this.mouseleaveFn);

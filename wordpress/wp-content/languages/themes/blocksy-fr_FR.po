@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Blocksy package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-17 20:02:38+0000\n"
+"PO-Revision-Date: 2023-04-06 19:16:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,7 +14,40 @@ msgstr ""
 #. Description of the theme
 #, gp-priority: high
 msgid "Blocksy is a blazing fast and lightweight WordPress theme built with the latest web technologies. It was built with the Gutenberg editor in mind and has a lot of options that makes it extendable and customizable. You can easily create any type of website, such as business agency, shop, corporate, education, restaurant, blog, portfolio, landing page and so on. It works like a charm with popular WordPress page builders, including Elementor, Beaver Builder, Visual Composer and Brizy. Since it is responsive and adaptive, translation ready, SEO optimized and has WooCommerce built-in, you will experience an easy build and even an increase in conversions. Note: Blocksy is built with the latest web technologies in order to bring you the smoothest experience, that told, old browsers like IE 11 and below may not work as expected. We strongly recommend you to update/switch to a modern browser."
-msgstr "Blocksy est un thème WordPress ultra-rapide et léger construit avec les dernières technologies Web. Il a été construit avec l’éditeur Gutenberg à l’esprit et dispose de nombreuses options qui le rendent extensible et personnalisable. Vous pouvez facilement créer tout type de site Web, tel qu’une agence commerciale, une boutique, une entreprise, une éducation, un restaurant, un blog, un portefeuille, une page de destination, etc. Cela fonctionne à merveille avec les constructeurs de pages WordPress populaires, notamment Elementor, Beaver Builder, Visual Composer et Brizy. Comme il est responsive et adaptatif, prêt pour la traduction, optimisé pour le référencement et doté de WooCommerce intégré, vous ferez l’expérience d’une construction facile et même d’une augmentation des conversions. Remarque : Blocksy est construit avec les dernières technologies Web afin de vous offrir l’expérience la plus fluide, cela dit, les anciens navigateurs comme IE 11 et les versions antérieures peuvent ne pas fonctionner comme prévu. Nous vous recommandons fortement de mettre à jour/passer à un navigateur moderne."
+msgstr "Blocksy est un thème WordPress ultra-rapide et léger construit avec les dernières technologies web. Il a été construit avec l’éditeur Gutenberg à l’esprit et dispose de nombreuses options qui le rendent extensible et personnalisable. Vous pouvez facilement créer tout type de site web, tel qu’une agence commerciale, une boutique, une entreprise, une éducation, un restaurant, un blog, un portefeuille, une page de destination, etc. Cela fonctionne à merveille avec les constructeurs de pages WordPress populaires, notamment Elementor, Beaver Builder, Visual Composer et Brizy. Comme il est responsive et adaptatif, prêt pour la traduction, optimisé pour le référencement et intègre WooCommerce, vous ferez l’expérience d’une construction facile et même d’une augmentation des conversions. Remarque : Blocksy est construit avec les dernières technologies web afin de vous offrir l’expérience la plus fluide, cela dit, les anciens navigateurs comme IE 11 et les versions antérieures peuvent ne pas fonctionner comme prévu. Nous vous recommandons fortement de mettre à jour/passer à un navigateur moderne."
+
+#: inc/panel-builder/header/menu/options.php:135
+msgid "Collapse menu items in to a dropdown if there is no enough room in the row. "
+msgstr "Replier les éléments de menu dans un menu déroulant s’il n’y a pas assez de place sur la ligne."
+
+#: inc/panel-builder/header/menu/options.php:131
+msgid "Collapse Non Fitting Items"
+msgstr "Replier les éléments non ajustés"
+
+#. translators: 1: link to WP admin new post page open 2: link closing.
+#: template-parts/content-none.php:16
+msgid "Ready to publish your first post? %1$sGet started here%2$s."
+msgstr "Prêt à publier votre premier article ? %1$sDémarrez ici%2$s."
+
+#. translators: 1: span opening 2: Post title 3: span closing.
+#: inc/single/content-helpers.php:270
+msgid "Edit%1$s \"%2$s\"%3$s"
+msgstr "Editer%1$s « %2$s »%3$s"
+
+#. translators: 1: span open 2: Name of current post. Only visible to screen
+#. readers 3: span closing
+#: inc/single/content-helpers.php:225 inc/template-tags.php:95
+msgid "Continue reading%1$s \"%2$s\"%3$s"
+msgstr "Continuer la lecture de%1$s « %2$s »%3$s"
+
+#: inc/panel-builder/header/button/options.php:97
+msgid "Set link to sponsored"
+msgstr "Définir le lien comme sponsorisé"
+
+#. translators: 1: span opening 2: span closing 3: the number of results
+#: inc/components/hero/elements.php:203 inc/components/hero/elements.php:340
+msgid "%1$sSearch Results for%2$s %3$s"
+msgstr "%1$sRésultats de la recherche pour%2$s %3$s"
 
 #: inc/options/general/typography.php:121
 msgid "Pullquote"
@@ -24,16 +57,16 @@ msgstr "Citation en exergue"
 msgid "Quote"
 msgstr "Citation"
 
-#: inc/panel-builder/header/menu/options.php:645
+#: inc/panel-builder/header/menu/options.php:653
 msgid "Please note, this option will affect only submenus on 3rd level and below."
 msgstr "Veuillez noter que cette option affectera uniquement les sous-menus du 3 ème niveau et inférieur."
 
 #. translators: placeholder here means the actual URL.
-#: inc/panel-builder/header/button/options.php:252
+#: inc/panel-builder/header/button/options.php:258
 msgid "Add a custom %saria label%s attribute."
 msgstr "Ajouter un attribut personnalisé %slibellé aria%s."
 
-#: inc/panel-builder/header/button/options.php:245
+#: inc/panel-builder/header/button/options.php:251
 msgid "Custom Aria Label"
 msgstr "Libellé aria personnalisé"
 
@@ -41,7 +74,7 @@ msgstr "Libellé aria personnalisé"
 msgid "Live Results"
 msgstr "Résultats en direct"
 
-#: searchform.php:98
+#: searchform.php:94
 msgid "Search for..."
 msgstr "Rechercher…"
 
@@ -166,7 +199,7 @@ msgid_plural "You got %s results. Please press Tab to select one."
 msgstr[0] "Vous avez %s résultat. Veuillez appuyer sur Tab pour le sélectionner."
 msgstr[1] "Vous avez %s résultats. Veuillez appuyer sur Tab pour en sélectionner un."
 
-#: inc/manager.php:138 searchform.php:127
+#: inc/manager.php:138 searchform.php:123
 msgid "No results"
 msgstr "Aucun résultat"
 
@@ -225,7 +258,7 @@ msgstr "Rendu de la rangée vide"
 msgid "Posts Title Tag"
 msgstr "Étiquette de titre des publications"
 
-#: inc/options/general/page-title.php:772
+#: inc/options/general/page-title.php:794
 msgid "Image Parallax Effect"
 msgstr "Effet parallaxe d’image"
 
@@ -257,15 +290,17 @@ msgstr "Ouvrir le formulaire de recherche"
 msgid "Off Canvas Logo"
 msgstr "Logo hors-champ"
 
-#: inc/panel-builder/header/menu/view.php:116
+#: inc/panel-builder/header/menu/view.php:123
 msgid "Header Menu"
 msgstr "Menu d’en-tête"
 
-#: inc/panel-builder/header/button/options.php:239
+#: inc/panel-builder/header/button/options.php:245
+#: inc/panel-builder/header/logo/options.php:345
 msgid "Separate multiple classes with spaces."
 msgstr "Séparer des classes multiples avec des espaces."
 
-#: inc/panel-builder/header/button/options.php:234
+#: inc/panel-builder/header/button/options.php:240
+#: inc/panel-builder/header/logo/options.php:340
 msgid "CSS Class"
 msgstr "Classe CSS"
 
@@ -281,9 +316,9 @@ msgstr "Étiquette du nom de l’auteur ou autrice"
 #: static/bundle/options.js:2
 #: static/js/options/options/typography/default-data.js:27
 #: static/js/options/options/typography/helpers.js:117
-#: static/bundle/customizer-controls.js:25861
-#: static/bundle/customizer-controls.js:26005 static/bundle/options.js:25861
-#: static/bundle/options.js:26005
+#: static/bundle/customizer-controls.js:25851
+#: static/bundle/customizer-controls.js:25995 static/bundle/options.js:25840
+#: static/bundle/options.js:25984
 msgid "System Default"
 msgstr "Réglages par défaut du système"
 
@@ -324,35 +359,35 @@ msgstr "Forme de l’icône plier/déplier"
 msgid "Dropdown Toggle Icon"
 msgstr "Icône plier/déplier"
 
-#: inc/panel-builder/header/menu/options.php:624
+#: inc/panel-builder/header/menu/options.php:632
 msgid "Top Offset (Sticky State)"
 msgstr "Décalage supérieur (État épinglé)"
 
-#: inc/panel-builder/header/menu/options.php:544
+#: inc/panel-builder/header/menu/options.php:552
 msgid "Only Arrow"
 msgstr "Flèche uniquement"
 
-#: inc/panel-builder/header/menu/options.php:543
+#: inc/panel-builder/header/menu/options.php:551
 msgid "Entire Item"
 msgstr "Élément entier"
 
-#: inc/panel-builder/header/menu/options.php:535
+#: inc/panel-builder/header/menu/options.php:543
 msgid "Click Area"
 msgstr "Zone de clic"
 
-#: inc/panel-builder/header/menu/options.php:526
+#: inc/panel-builder/header/menu/options.php:534
 msgid "Choose the interaction mode with the menu dropdown. "
 msgstr "Choisissez le mode d’interaction pour le menu déroulant."
 
-#: inc/panel-builder/header/menu/options.php:524
+#: inc/panel-builder/header/menu/options.php:532
 msgid "Click"
 msgstr "Clic"
 
-#: inc/panel-builder/header/menu/options.php:516
+#: inc/panel-builder/header/menu/options.php:524
 msgid "Interaction Type"
 msgstr "Type d’interaction"
 
-#: inc/panel-builder/header/menu/options.php:477
+#: inc/panel-builder/header/menu/options.php:485
 msgid "Items Border Radius"
 msgstr "Rayon de la bordure des éléments"
 
@@ -369,7 +404,7 @@ msgstr "Replier le menu déroulant"
 msgid "Expand dropdown menu"
 msgstr "Déplier le menu déroulant"
 
-#: inc/components/builder/header-elements.php:395
+#: inc/components/builder/header-elements.php:396
 msgid "Close cart drawer"
 msgstr "Fermer le tiroir du panier"
 
@@ -377,13 +412,13 @@ msgstr "Fermer le tiroir du panier"
 msgid "Close drawer"
 msgstr "Fermer le tiroir"
 
-#: inc/panel-builder/header/button/options.php:227
-#: inc/panel-builder/header/text/options.php:138
+#: inc/panel-builder/header/button/options.php:233
+#: inc/panel-builder/header/text/options.php:142
 msgid "Logged Out"
 msgstr "Déconnecté·e"
 
-#: inc/panel-builder/header/button/options.php:226
-#: inc/panel-builder/header/text/options.php:137
+#: inc/panel-builder/header/button/options.php:232
+#: inc/panel-builder/header/text/options.php:141
 msgid "Logged In"
 msgstr "Connecté·e"
 
@@ -396,7 +431,7 @@ msgid "Mobile Menu 1"
 msgstr "Menu mobile 1"
 
 #: inc/panel-builder/header/cart/options.php:908
-#: inc/panel-builder/header/offcanvas/options.php:173
+#: inc/panel-builder/header/offcanvas/options.php:171
 #: inc/panel-builder/header/search/options.php:635
 msgid "Close Button Type"
 msgstr "Type de bouton de fermeture"
@@ -417,11 +452,11 @@ msgstr "Couleur de l’icône du bouton de la visionneuse"
 msgid "Shape Border Radius"
 msgstr "Rayon de la bordure de la forme"
 
-#: inc/panel-builder/header/text/options.php:21
+#: inc/panel-builder/header/text/options.php:25
 msgid "Allow the item container to expand and fill in all the available space."
 msgstr "Autoriser le conteneur d’éléments à se déplier et remplir tout l’espace disponible."
 
-#: inc/panel-builder/header/text/options.php:20
+#: inc/panel-builder/header/text/options.php:24
 msgid "Stretch Container"
 msgstr "Conteneur extensible"
 
@@ -445,7 +480,7 @@ msgstr "Couleur de superposition de la carte"
 msgid "Card Min Height"
 msgstr "Hauteur min. de la carte"
 
-#: inc/panel-builder/header/button/options.php:109
+#: inc/panel-builder/header/button/options.php:115
 msgid "Popup Template"
 msgstr "Modèle de fenêtre surgissante"
 
@@ -546,7 +581,7 @@ msgstr "Ajouter facilement les liens de vos réseaux sociaux et afficher les sur
 msgid "Enable Schema.org markup features for your website. You can disable this option if you use a SEO plugin and let it do the work."
 msgstr "Activer la fonctionnalité de balisage Schema.org. Si vous utilisez une extension de SEO, vous pouvez désactiver cette option et laisser l’extension faire le travail."
 
-#: inc/panel-builder/header/button/options.php:123
+#: inc/panel-builder/header/button/options.php:129
 msgid "Please go ahead and create a popup first."
 msgstr "Veuillez d‘abord créer une fenêtre surgissante."
 
@@ -554,7 +589,7 @@ msgstr "Veuillez d‘abord créer une fenêtre surgissante."
 msgid "Set link to nofollow"
 msgstr "Régler le lien sur nofollow"
 
-#: inc/panel-builder/header/button/options.php:122
+#: inc/panel-builder/header/button/options.php:128
 msgid "Popup"
 msgstr "Fenêtre modale"
 
@@ -662,8 +697,8 @@ msgstr "Activez cette option si vous souhaitez retirer le script emojis de WordP
 msgid "Disable Emojis Script"
 msgstr "Désactiver le script d‘emojis"
 
-#: inc/options/general/page-title.php:445
-#: inc/panel-builder/header/text/options.php:33
+#: inc/options/general/page-title.php:467
+#: inc/panel-builder/header/text/options.php:37
 msgid "Max Width"
 msgstr "Largeur max"
 
@@ -810,8 +845,8 @@ msgstr "Aucune page définie"
 #: inc/options/customizer.php:33 static/bundle/customizer-controls.js:2
 #: static/js/customizer/components/ProOverlay.js:21
 #: static/js/customizer/components/ProOverlay.js:66
-#: static/bundle/customizer-controls.js:43406
-#: static/bundle/customizer-controls.js:43451
+#: static/bundle/customizer-controls.js:43403
+#: static/bundle/customizer-controls.js:43448
 msgid "View Pro Features"
 msgstr "Voir les fonctionnalités Pro"
 
@@ -829,11 +864,11 @@ msgstr "Agrandir"
 msgid "Select Dropdown"
 msgstr "Sélectionnez la liste déroulante"
 
-#: searchform.php:100
+#: searchform.php:96
 msgid "Search button"
 msgstr "Bouton de recherche"
 
-#: inc/options/general/page-title.php:592
+#: inc/options/general/page-title.php:614
 #: inc/options/single-elements/author-box.php:142
 #: inc/panel-builder/footer/socials/options.php:52
 #: inc/panel-builder/header/socials/options.php:52
@@ -943,7 +978,7 @@ msgstr "Visibilité des produits associés"
 msgid "Related Products Visibility"
 msgstr "Visibilité des produits associés"
 
-#: inc/components/woocommerce/general.php:413
+#: inc/components/woocommerce/general.php:422
 #: inc/options/posts/woo-single.php:111
 msgid "Product Price"
 msgstr "Prix du produit"
@@ -959,7 +994,7 @@ msgstr "Cliquez sur ce bouton si vous souhaitez réinitialiser tous les réglage
 #: inc/options/general/general.php:88 static/bundle/customizer-controls.js:2
 #: static/bundle/options.js:2
 #: static/js/options/options/ct-customizer-reset-options.js:18
-#: static/bundle/customizer-controls.js:16458 static/bundle/options.js:14573
+#: static/bundle/customizer-controls.js:16448 static/bundle/options.js:14552
 msgid "Reset Options"
 msgstr "Réinitialiser les options"
 
@@ -985,21 +1020,21 @@ msgid "Sidebar Visibility"
 msgstr "Visibilité de la colonne latérale"
 
 #. translators: %s entity of font color
-#: inc/options/general/page-title.php:1049
+#: inc/options/general/page-title.php:1071
 msgid "%s Font Color"
 msgstr "%s Couleur de la police"
 
 #. translators: %s entity of font
-#: inc/options/general/page-title.php:1037
+#: inc/options/general/page-title.php:1059
 msgid "%s Font"
 msgstr "Police %s"
 
-#: inc/options/general/page-title.php:985
+#: inc/options/general/page-title.php:1007
 #: inc/options/general/posts-listing.php:872
 msgid "Meta Button Background"
 msgstr "Arrière-plan de bouton de métadonnées"
 
-#: inc/options/general/page-title.php:953
+#: inc/options/general/page-title.php:975
 #: inc/options/general/posts-listing.php:840
 msgid "Meta Button Font"
 msgstr "Police de bouton de métadonnées"
@@ -1125,7 +1160,7 @@ msgstr "Galerie du produit"
 msgid "Disable %s %s"
 msgstr "Désactiver %s %s"
 
-#: inc/options/general/page-title.php:1186
+#: inc/options/general/page-title.php:1208
 msgid "Container Padding"
 msgstr "Marge interne du conteneur"
 
@@ -1155,7 +1190,7 @@ msgid "Subtotal Font Color"
 msgstr "Couleur de la police du sous-total"
 
 #: inc/panel-builder/header/cart/options.php:873
-#: inc/panel-builder/header/offcanvas/options.php:125
+#: inc/panel-builder/header/offcanvas/options.php:123
 msgid "Panel Backdrop"
 msgstr "Arrière-plan du panneau"
 
@@ -1219,15 +1254,15 @@ msgstr "Effet de l’indicateur"
 #: inc/panel-builder/footer/copyright/options.php:67
 #: inc/panel-builder/footer/menu/options.php:124
 #: inc/panel-builder/footer/socials/options.php:211
-#: inc/panel-builder/header/button/options.php:140
-#: inc/panel-builder/header/button/options.php:196
+#: inc/panel-builder/header/button/options.php:146
+#: inc/panel-builder/header/button/options.php:202
 #: inc/panel-builder/header/cart/options.php:1088
-#: inc/panel-builder/header/logo/options.php:318
+#: inc/panel-builder/header/logo/options.php:320
 #: inc/panel-builder/header/mobile-menu/options.php:153
 #: inc/panel-builder/header/search/options.php:803
 #: inc/panel-builder/header/socials/options.php:168
-#: inc/panel-builder/header/text/options.php:107
-#: inc/panel-builder/header/text/options.php:343
+#: inc/panel-builder/header/text/options.php:111
+#: inc/panel-builder/header/text/options.php:347
 #: inc/panel-builder/header/trigger/options.php:604
 msgid "Element Visibility"
 msgstr "Visibilité des éléments"
@@ -1252,7 +1287,7 @@ msgstr "Visibilité des flèches"
 msgid "Numbers Visibility"
 msgstr "Visibilité des nombres"
 
-#: inc/options/general/page-title.php:630
+#: inc/options/general/page-title.php:652
 msgid "Container Bottom Spacing"
 msgstr "Marge interne inférieure du conteneur"
 
@@ -1339,12 +1374,12 @@ msgid "Add to Cart"
 msgstr "Ajouter au panier"
 
 #: inc/panel-builder/header/cart/options.php:889
-#: inc/panel-builder/header/offcanvas/options.php:151
+#: inc/panel-builder/header/offcanvas/options.php:149
 msgid "Panel Shadow"
 msgstr "Ombre du panneau"
 
 #: inc/panel-builder/header/cart/options.php:857
-#: inc/panel-builder/header/offcanvas/options.php:105
+#: inc/panel-builder/header/offcanvas/options.php:103
 msgid "Panel Background"
 msgstr "Arrière-plan du panneau"
 
@@ -1361,7 +1396,7 @@ msgid "Off Canvas Menu"
 msgstr "Menu hors-champ"
 
 #: inc/panel-builder/header/cart/options.php:614
-#: inc/panel-builder/header/offcanvas/options.php:41
+#: inc/panel-builder/header/offcanvas/options.php:39
 msgid "Panel Width"
 msgstr "Largeur du panneau"
 
@@ -1423,30 +1458,30 @@ msgstr "Famille de Police par défaut"
 msgid "Image Visibility"
 msgstr "Visibilité de l’image"
 
-#: inc/panel-builder/header/menu/options.php:984
+#: inc/panel-builder/header/menu/options.php:992
 msgid "Dropdown Border Radius"
 msgstr "Rayon de bordure de liste déroulante"
 
-#: inc/panel-builder/header/menu/options.php:966
+#: inc/panel-builder/header/menu/options.php:974
 msgid "Dropdown Shadow"
 msgstr "Ombre de liste déroulante"
 
-#: inc/panel-builder/header/menu/options.php:825
-#: inc/panel-builder/header/menu/options.php:855
-#: inc/panel-builder/header/menu/options.php:888
-#: inc/panel-builder/header/menu/options.php:918
+#: inc/panel-builder/header/menu/options.php:833
+#: inc/panel-builder/header/menu/options.php:863
+#: inc/panel-builder/header/menu/options.php:896
+#: inc/panel-builder/header/menu/options.php:926
 msgid "Items Background Color"
 msgstr "Couleur d’arrière-plan des éléments"
 
-#: inc/panel-builder/header/menu/options.php:563
+#: inc/panel-builder/header/menu/options.php:571
 msgid "Boxed Color"
 msgstr "Couleur d’encadré"
 
-#: inc/panel-builder/header/menu/options.php:562
+#: inc/panel-builder/header/menu/options.php:570
 msgid "Solid Color"
 msgstr "Couleur unie"
 
-#: inc/panel-builder/header/menu/options.php:552
+#: inc/panel-builder/header/menu/options.php:560
 msgid "Items Hover Effect"
 msgstr "Effet au survol "
 
@@ -1457,11 +1492,6 @@ msgstr "Taille d’arrondi de la zone de contenu"
 #: inc/options/single-elements/structure-design.php:119
 msgid "Content Area Padding"
 msgstr "Marge interne du contenu"
-
-#. translators: %s: Post title.
-#: inc/single/content-helpers.php:265
-msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Modifier<span class=\"screen-reader-text\"> « %s »</span>"
 
 #: inc/options/general/comments-single.php:30
 msgid "Website Input Field"
@@ -1502,8 +1532,8 @@ msgstr "Pleine largeur"
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:18
 #: static/js/customizer/sync/builder.js:125
-#: static/bundle/customizer-controls.js:5589 static/bundle/options.js:16488
-#: static/bundle/sync.min.js:8986
+#: static/bundle/customizer-controls.js:5600 static/bundle/options.js:16467
+#: static/bundle/sync.min.js:9015
 msgid "Main Row"
 msgstr "Rangée principale"
 
@@ -1526,21 +1556,21 @@ msgid "Sticky State Logo"
 msgstr "Logo en état épinglé"
 
 #: inc/panel-builder/header/logo/options.php:27 static/bundle/options.js:2
-#: static/js/backend/taxonomies.js:107 static/bundle/options.js:37718
+#: static/js/backend/taxonomies.js:107 static/bundle/options.js:37704
 msgid "Transparent State Logo"
 msgstr "Logo en état transparent"
 
-#: inc/panel-builder/header/button/options.php:290
-#: inc/panel-builder/header/button/options.php:475
+#: inc/panel-builder/header/button/options.php:296
+#: inc/panel-builder/header/button/options.php:481
 #: inc/panel-builder/header/cart/options.php:180
 #: inc/panel-builder/header/cart/options.php:306
 #: inc/panel-builder/header/cart/options.php:431
-#: inc/panel-builder/header/logo/options.php:379
-#: inc/panel-builder/header/logo/options.php:525
-#: inc/panel-builder/header/menu/options.php:176
-#: inc/panel-builder/header/menu/options.php:397
-#: inc/panel-builder/header/menu/options.php:692
-#: inc/panel-builder/header/menu/options.php:845
+#: inc/panel-builder/header/logo/options.php:393
+#: inc/panel-builder/header/logo/options.php:539
+#: inc/panel-builder/header/menu/options.php:184
+#: inc/panel-builder/header/menu/options.php:405
+#: inc/panel-builder/header/menu/options.php:700
+#: inc/panel-builder/header/menu/options.php:853
 #: inc/panel-builder/header/middle-row/options.php:140
 #: inc/panel-builder/header/middle-row/options.php:208
 #: inc/panel-builder/header/middle-row/options.php:315
@@ -1551,24 +1581,24 @@ msgstr "Logo en état transparent"
 #: inc/panel-builder/header/socials/options.php:242
 #: inc/panel-builder/header/socials/options.php:368
 #: inc/panel-builder/header/socials/options.php:512
-#: inc/panel-builder/header/text/options.php:181
+#: inc/panel-builder/header/text/options.php:185
 #: inc/panel-builder/header/trigger/options.php:176
 #: inc/panel-builder/header/trigger/options.php:302
 #: inc/panel-builder/header/trigger/options.php:435
 msgid "Sticky State"
 msgstr "État épinglé"
 
-#: inc/panel-builder/header/button/options.php:281
-#: inc/panel-builder/header/button/options.php:466
+#: inc/panel-builder/header/button/options.php:287
+#: inc/panel-builder/header/button/options.php:472
 #: inc/panel-builder/header/cart/options.php:171
 #: inc/panel-builder/header/cart/options.php:297
 #: inc/panel-builder/header/cart/options.php:421
-#: inc/panel-builder/header/logo/options.php:370
-#: inc/panel-builder/header/logo/options.php:516
-#: inc/panel-builder/header/menu/options.php:167
-#: inc/panel-builder/header/menu/options.php:387
-#: inc/panel-builder/header/menu/options.php:683
-#: inc/panel-builder/header/menu/options.php:836
+#: inc/panel-builder/header/logo/options.php:384
+#: inc/panel-builder/header/logo/options.php:530
+#: inc/panel-builder/header/menu/options.php:175
+#: inc/panel-builder/header/menu/options.php:395
+#: inc/panel-builder/header/menu/options.php:691
+#: inc/panel-builder/header/menu/options.php:844
 #: inc/panel-builder/header/middle-row/options.php:132
 #: inc/panel-builder/header/middle-row/options.php:200
 #: inc/panel-builder/header/middle-row/options.php:307
@@ -1579,24 +1609,24 @@ msgstr "État épinglé"
 #: inc/panel-builder/header/socials/options.php:232
 #: inc/panel-builder/header/socials/options.php:358
 #: inc/panel-builder/header/socials/options.php:501
-#: inc/panel-builder/header/text/options.php:172
+#: inc/panel-builder/header/text/options.php:176
 #: inc/panel-builder/header/trigger/options.php:167
 #: inc/panel-builder/header/trigger/options.php:293
 #: inc/panel-builder/header/trigger/options.php:425
 msgid "Transparent State"
 msgstr "État transparent"
 
-#: inc/panel-builder/header/button/options.php:276
-#: inc/panel-builder/header/button/options.php:461
+#: inc/panel-builder/header/button/options.php:282
+#: inc/panel-builder/header/button/options.php:467
 #: inc/panel-builder/header/cart/options.php:166
 #: inc/panel-builder/header/cart/options.php:292
 #: inc/panel-builder/header/cart/options.php:413
-#: inc/panel-builder/header/logo/options.php:365
-#: inc/panel-builder/header/logo/options.php:511
-#: inc/panel-builder/header/menu/options.php:162
-#: inc/panel-builder/header/menu/options.php:381
-#: inc/panel-builder/header/menu/options.php:678
-#: inc/panel-builder/header/menu/options.php:831
+#: inc/panel-builder/header/logo/options.php:379
+#: inc/panel-builder/header/logo/options.php:525
+#: inc/panel-builder/header/menu/options.php:170
+#: inc/panel-builder/header/menu/options.php:389
+#: inc/panel-builder/header/menu/options.php:686
+#: inc/panel-builder/header/menu/options.php:839
 #: inc/panel-builder/header/middle-row/options.php:127
 #: inc/panel-builder/header/middle-row/options.php:195
 #: inc/panel-builder/header/middle-row/options.php:302
@@ -1607,18 +1637,18 @@ msgstr "État transparent"
 #: inc/panel-builder/header/socials/options.php:224
 #: inc/panel-builder/header/socials/options.php:352
 #: inc/panel-builder/header/socials/options.php:492
-#: inc/panel-builder/header/text/options.php:167
+#: inc/panel-builder/header/text/options.php:171
 #: inc/panel-builder/header/trigger/options.php:162
 #: inc/panel-builder/header/trigger/options.php:288
 #: inc/panel-builder/header/trigger/options.php:419
 msgid "Default State"
 msgstr "État par défaut"
 
-#: inc/options/general/page-title.php:773
+#: inc/options/general/page-title.php:795
 msgid "Choose for which devices you want to enable the parallax effect."
 msgstr "Choisir les appareils sur lesquels activer l’effet de parallaxe."
 
-#: inc/options/general/page-title.php:720
+#: inc/options/general/page-title.php:742
 msgid "Featured"
 msgstr "En avant"
 
@@ -1746,7 +1776,7 @@ msgstr "Élément d’accueil"
 msgid "Separator"
 msgstr "Séparateur"
 
-#: inc/options/general/page-title.php:713
+#: inc/options/general/page-title.php:735
 msgid "Container Background Image"
 msgstr "Image du fond de conteneur"
 
@@ -1843,7 +1873,7 @@ msgstr "bbPress"
 
 #: inc/options/general/meta.php:405 static/bundle/customizer-controls.js:2
 #: static/bundle/options.js:2 static/js/options/options/ct-border.js:47
-#: static/bundle/customizer-controls.js:15351 static/bundle/options.js:13466
+#: static/bundle/customizer-controls.js:15341 static/bundle/options.js:13445
 msgid "none"
 msgstr "aucun"
 
@@ -1862,7 +1892,7 @@ msgstr "Style des éléments"
 #: inc/components/post-meta.php:82 inc/components/post-meta.php:649
 #: inc/options/general/meta.php:357
 #: static/js/customizer/sync/helpers/entry-meta.js:74
-#: static/bundle/sync.min.js:9924
+#: static/bundle/sync.min.js:9955
 msgid "In"
 msgstr "Dans"
 
@@ -1905,32 +1935,32 @@ msgid "Please note, by default this option is inherited from Colors ➝ %sSite B
 msgstr "Veuillez noter que, par défaut, cette option est héritée de Couleurs ➝ %sArrière-plan du site%s."
 
 #: inc/options/general/breadcrumbs.php:152
-#: inc/options/general/page-title.php:1089
+#: inc/options/general/page-title.php:1111
 msgid "Breadcrumbs Font Color"
 msgstr "Couleur de police du fil d’Ariane"
 
 #: inc/options/general/breadcrumbs.php:140
-#: inc/options/general/page-title.php:1081
+#: inc/options/general/page-title.php:1103
 msgid "Breadcrumbs Font"
 msgstr "Police du fil d’Ariane"
 
-#: inc/options/general/page-title.php:567
+#: inc/options/general/page-title.php:589
 msgid "Social Channels"
 msgstr "Réseaux sociaux"
 
-#: inc/options/general/page-title.php:504
+#: inc/options/general/page-title.php:526
 msgid "Author Meta"
 msgstr "Méta de l’auteur/autrice"
 
-#: inc/options/general/page-title.php:303
+#: inc/options/general/page-title.php:325
 msgid "Name & Avatar"
 msgstr "Nom et avatar"
 
 #: inc/options/general/page-title.php:286
-#: inc/options/general/page-title.php:400
-#: inc/options/general/page-title.php:465
-#: inc/options/general/page-title.php:551
-#: inc/options/general/page-title.php:577
+#: inc/options/general/page-title.php:422
+#: inc/options/general/page-title.php:487
+#: inc/options/general/page-title.php:573
+#: inc/options/general/page-title.php:599
 msgid "Top Spacing"
 msgstr "Marge supérieure"
 
@@ -1946,13 +1976,13 @@ msgstr "Bio"
 msgid "Sticky Summary"
 msgstr "Sommaire épinglé"
 
-#: inc/options/general/page-title.php:759 inc/options/posts/woo-gallery.php:106
+#: inc/options/general/page-title.php:781 inc/options/posts/woo-gallery.php:106
 #: inc/options/single-elements/featured-image.php:29
 #: inc/options/single-elements/post-nav.php:92
 #: inc/options/single-elements/related-posts.php:231
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-ratio.js:68
-#: static/bundle/customizer-controls.js:19900 static/bundle/options.js:19900
+#: static/bundle/customizer-controls.js:19890 static/bundle/options.js:19879
 msgid "Image Size"
 msgstr "Taille de l’image"
 
@@ -2004,7 +2034,7 @@ msgstr "Couleur du texte du bouton"
 #: inc/options/single-elements/related-posts.php:159
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-woocommerce-columns-and-rows.js:49
-#: static/bundle/customizer-controls.js:30228 static/bundle/options.js:30228
+#: static/bundle/customizer-controls.js:30225 static/bundle/options.js:30214
 msgid "Number of columns"
 msgstr "Nombre de colonnes"
 
@@ -2048,34 +2078,34 @@ msgid "Module Placement"
 msgstr "Emplacement du module"
 
 #: inc/options/general/breadcrumbs.php:185
-#: inc/options/general/page-title.php:1122 inc/options/general/sidebar.php:368
+#: inc/options/general/page-title.php:1144 inc/options/general/sidebar.php:368
 #: inc/options/single-elements/author-box.php:302
 #: inc/panel-builder/footer/copyright/options.php:139
 #: inc/panel-builder/footer/middle-row/options.php:582
 #: inc/panel-builder/footer/widget-area-1/options.php:94
 #: inc/panel-builder/header/cart/options.php:716
 #: inc/panel-builder/header/cart/options.php:827
-#: inc/panel-builder/header/text/options.php:225
-#: inc/panel-builder/header/text/options.php:265
-#: inc/panel-builder/header/text/options.php:304
+#: inc/panel-builder/header/text/options.php:229
+#: inc/panel-builder/header/text/options.php:269
+#: inc/panel-builder/header/text/options.php:308
 msgid "Link Hover"
 msgstr "Lien au survol"
 
 #: inc/options/general/breadcrumbs.php:179
-#: inc/options/general/page-title.php:1116 inc/options/general/sidebar.php:363
+#: inc/options/general/page-title.php:1138 inc/options/general/sidebar.php:363
 #: inc/options/single-elements/author-box.php:296
 #: inc/panel-builder/footer/copyright/options.php:133
 #: inc/panel-builder/footer/middle-row/options.php:576
 #: inc/panel-builder/footer/widget-area-1/options.php:89
 #: inc/panel-builder/header/cart/options.php:710
 #: inc/panel-builder/header/cart/options.php:822
-#: inc/panel-builder/header/text/options.php:219
-#: inc/panel-builder/header/text/options.php:260
-#: inc/panel-builder/header/text/options.php:299
+#: inc/panel-builder/header/text/options.php:223
+#: inc/panel-builder/header/text/options.php:264
+#: inc/panel-builder/header/text/options.php:303
 msgid "Link Initial"
 msgstr "Lien initial"
 
-#: inc/options/general/page-title.php:350
+#: inc/options/general/page-title.php:372
 msgid "Category Label"
 msgstr "Libellé de catégorie"
 
@@ -2083,7 +2113,7 @@ msgstr "Libellé de catégorie"
 msgid "Facebook Group"
 msgstr "Groupe Facebook"
 
-#: inc/options/general/page-title.php:519
+#: inc/options/general/page-title.php:541
 msgid "Joined Date"
 msgstr "Date d’inscription"
 
@@ -2094,16 +2124,16 @@ msgstr "Colonne latérale principale"
 #: inc/single/comments.php:224 static/bundle/customizer-controls.js:2
 #: static/bundle/options.js:2 static/js/customizer/sync/builder.js:110
 #: static/js/options/options/ct-image-uploader.js:369
-#: static/bundle/customizer-controls.js:18479 static/bundle/options.js:18479
-#: static/bundle/sync.min.js:8971
+#: static/bundle/customizer-controls.js:18469 static/bundle/options.js:18458
+#: static/bundle/sync.min.js:9000
 msgid "Edit"
 msgstr "Modifier"
 
-#: inc/options/general/page-title.php:1320
+#: inc/options/general/page-title.php:1342
 msgid "Options will appear here only if you will set Custom in Page Title option."
 msgstr "Les options n’apparaîtront ici que si vous définissez l’option Personnaliser le titre de la page."
 
-#: inc/options/general/page-title.php:1260
+#: inc/options/general/page-title.php:1282
 msgid "By default these options are inherited from Customizer options."
 msgstr "Par défaut, ces options sont héritées des options de l’outil de personnalisation."
 
@@ -2118,7 +2148,7 @@ msgid "Normal"
 msgstr "Normal"
 
 #: inc/options/general/comments-single.php:109
-#: inc/options/general/page-title.php:704
+#: inc/options/general/page-title.php:726
 #: inc/options/single-elements/related-posts.php:394
 msgid "Narrow"
 msgstr "Étroit"
@@ -2143,33 +2173,33 @@ msgstr "Remplissage de la forme"
 msgid "Icons Shape Type"
 msgstr "Forme des icônes"
 
-#: inc/options/general/page-title.php:665
+#: inc/options/general/page-title.php:687
 #: inc/options/general/posts-listing.php:640
 #: inc/panel-builder/footer/copyright/options.php:47
 #: inc/panel-builder/footer/menu/options.php:105
 #: inc/panel-builder/footer/middle-row/options.php:415
 #: inc/panel-builder/footer/socials/options.php:181
 #: inc/panel-builder/footer/widget-area-1/options.php:39
-#: inc/panel-builder/header/button/options.php:180
-#: inc/panel-builder/header/logo/options.php:302
-#: inc/panel-builder/header/offcanvas/options.php:65
-#: inc/panel-builder/header/text/options.php:91
+#: inc/panel-builder/header/button/options.php:186
+#: inc/panel-builder/header/logo/options.php:304
+#: inc/panel-builder/header/offcanvas/options.php:63
+#: inc/panel-builder/header/text/options.php:95
 msgid "Vertical Alignment"
 msgstr "Alignement vertical"
 
-#: inc/options/general/page-title.php:611
-#: inc/options/general/page-title.php:649
+#: inc/options/general/page-title.php:633
+#: inc/options/general/page-title.php:671
 #: inc/options/general/posts-listing.php:587
 #: inc/options/posts/woo-product-tabs.php:41
 #: inc/panel-builder/footer/copyright/options.php:31
 #: inc/panel-builder/footer/menu/options.php:84
 #: inc/panel-builder/footer/socials/options.php:165
 #: inc/panel-builder/footer/widget-area-1/options.php:23
-#: inc/panel-builder/header/button/options.php:163
-#: inc/panel-builder/header/logo/options.php:286
+#: inc/panel-builder/header/button/options.php:169
+#: inc/panel-builder/header/logo/options.php:288
 #: inc/panel-builder/header/mobile-menu/options.php:135
-#: inc/panel-builder/header/offcanvas/options.php:81
-#: inc/panel-builder/header/text/options.php:74
+#: inc/panel-builder/header/offcanvas/options.php:79
+#: inc/panel-builder/header/text/options.php:78
 msgid "Horizontal Alignment"
 msgstr "Alignement horizontal"
 
@@ -2217,7 +2247,7 @@ msgstr "Couleur du texte des widgets"
 msgid "Widgets Font"
 msgstr "Police des widgets"
 
-#: inc/options/general/page-title.php:364
+#: inc/options/general/page-title.php:386
 msgid "Author avatar"
 msgstr "Avatar de l’auteur/autrice"
 
@@ -2225,9 +2255,9 @@ msgstr "Avatar de l’auteur/autrice"
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/customizer/panels-builder/columns/AvailableItems.js:74
 #: static/js/customizer/panels-builder/placements/AvailableItems.js:78
-#: static/bundle/customizer-controls.js:6341
-#: static/bundle/customizer-controls.js:17461 static/bundle/options.js:15576
-#: static/bundle/options.js:17240
+#: static/bundle/customizer-controls.js:6352
+#: static/bundle/customizer-controls.js:17451 static/bundle/options.js:15555
+#: static/bundle/options.js:17219
 msgid "Elements"
 msgstr "Éléments"
 
@@ -2333,9 +2363,9 @@ msgstr "Cette option ne s’appliquera uniquement aux éléments ayant l’optio
 
 #: inc/options/posts/woo-categories.php:687
 #: inc/options/posts/woo-categories.php:719
-#: inc/panel-builder/header/menu/options.php:879
-#: inc/panel-builder/header/menu/options.php:910
-#: inc/panel-builder/header/menu/options.php:940
+#: inc/panel-builder/header/menu/options.php:887
+#: inc/panel-builder/header/menu/options.php:918
+#: inc/panel-builder/header/menu/options.php:948
 msgid "Hover/Active"
 msgstr "Au survol/actif"
 
@@ -2343,12 +2373,12 @@ msgstr "Au survol/actif"
 msgid "Buttons"
 msgstr "Boutons"
 
-#: inc/options/general/page-title.php:520 inc/single/single-helpers.php:259
-#: inc/single/single-helpers.php:378
+#: inc/options/general/page-title.php:542 inc/single/single-helpers.php:263
+#: inc/single/single-helpers.php:382
 msgid "Articles"
 msgstr "Publications"
 
-#: inc/single/single-helpers.php:255
+#: inc/single/single-helpers.php:259
 msgid "Joined"
 msgstr "Inscription le"
 
@@ -2370,7 +2400,7 @@ msgstr "Performances"
 msgid "Manage your menus in the %sMenus screen%s."
 msgstr "Gérez vos menus dans l’%sécran des menus%s."
 
-#: inc/components/images.php:491
+#: inc/components/images.php:494
 msgid "Default image"
 msgstr "Image par défaut"
 
@@ -2426,7 +2456,7 @@ msgid "Height"
 msgstr "Hauteur"
 
 #: inc/options/posts/woo-categories.php:149
-#: inc/panel-builder/header/menu/options.php:596
+#: inc/panel-builder/header/menu/options.php:604
 msgid "Width"
 msgstr "Largeur"
 
@@ -2471,10 +2501,10 @@ msgstr "Texte actif"
 #: inc/panel-builder/header/cart/options.php:786
 #: inc/panel-builder/header/cart/options.php:816
 #: inc/panel-builder/header/cart/options.php:849
-#: inc/panel-builder/header/text/options.php:213
-#: inc/panel-builder/header/text/options.php:255
-#: inc/panel-builder/header/text/options.php:294 static/bundle/options.js:2
-#: static/js/backend/taxonomies.js:141 static/bundle/options.js:37752
+#: inc/panel-builder/header/text/options.php:217
+#: inc/panel-builder/header/text/options.php:259
+#: inc/panel-builder/header/text/options.php:298 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:141 static/bundle/options.js:37738
 msgid "Text Initial"
 msgstr "Texte initial"
 
@@ -2483,24 +2513,24 @@ msgstr "Texte initial"
 msgid "Text Color"
 msgstr "Couleur du texte"
 
-#: inc/options/general/page-title.php:1047
+#: inc/options/general/page-title.php:1069
 msgid "Excerpt Font Color"
 msgstr "Couleur de la police des extraits"
 
-#: inc/options/general/page-title.php:1035
+#: inc/options/general/page-title.php:1057
 #: inc/options/general/posts-listing.php:756
 msgid "Excerpt Font"
 msgstr "Police de l’extrait "
 
-#: inc/options/general/page-title.php:918
+#: inc/options/general/page-title.php:940
 #: inc/options/general/posts-listing.php:805
 msgid "Meta Font Color"
 msgstr "Couleur de police des métas"
 
-#: inc/panel-builder/header/menu/options.php:638
+#: inc/panel-builder/header/menu/options.php:646
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/box-shadow/box-shadow-modal.js:117
-#: static/bundle/customizer-controls.js:15554 static/bundle/options.js:13669
+#: static/bundle/customizer-controls.js:15544 static/bundle/options.js:13648
 msgid "Horizontal Offset"
 msgstr "Décalage horizontal"
 
@@ -2510,12 +2540,12 @@ msgstr "Décalage horizontal"
 #: inc/options/single-elements/post-share-box.php:482
 #: inc/panel-builder/header/cart/options.php:918
 #: inc/panel-builder/header/mobile-menu/options.php:85
-#: inc/panel-builder/header/offcanvas/options.php:183
+#: inc/panel-builder/header/offcanvas/options.php:181
 #: inc/panel-builder/header/search/options.php:645
 msgid "Border"
 msgstr "Bordure"
 
-#: inc/panel-builder/header/menu/options.php:606
+#: inc/panel-builder/header/menu/options.php:614
 msgid "Top Offset"
 msgstr "Décalage supérieur"
 
@@ -2626,9 +2656,9 @@ msgid "Official"
 msgstr "Officiel"
 
 #: inc/options/general/back-to-top.php:38 inc/options/general/meta.php:140
-#: inc/options/general/page-title.php:722
-#: inc/options/general/page-title.php:1248
-#: inc/options/general/page-title.php:1289 inc/options/meta/default.php:81
+#: inc/options/general/page-title.php:744
+#: inc/options/general/page-title.php:1270
+#: inc/options/general/page-title.php:1311 inc/options/meta/default.php:81
 #: inc/options/meta/default.php:112 inc/options/meta/page.php:80
 #: inc/options/meta/page.php:111 inc/options/meta/post.php:76
 #: inc/options/meta/post.php:110 inc/options/posts/woo-general.php:613
@@ -2642,14 +2672,14 @@ msgstr "Officiel"
 #: static/js/options/options/ct-slider.js:95
 #: static/js/options/options/ct-slider.js:120
 #: static/js/options/options/ct-typography.js:151
-#: static/bundle/customizer-controls.js:19962
-#: static/bundle/customizer-controls.js:20115
-#: static/bundle/customizer-controls.js:25057
-#: static/bundle/customizer-controls.js:25082
-#: static/bundle/customizer-controls.js:29779 static/bundle/options.js:19962
-#: static/bundle/options.js:20115 static/bundle/options.js:25057
-#: static/bundle/options.js:25082 static/bundle/options.js:29779
-#: static/bundle/options.js:37558
+#: static/bundle/customizer-controls.js:19952
+#: static/bundle/customizer-controls.js:20105
+#: static/bundle/customizer-controls.js:25047
+#: static/bundle/customizer-controls.js:25072
+#: static/bundle/customizer-controls.js:29776 static/bundle/options.js:19941
+#: static/bundle/options.js:20094 static/bundle/options.js:25036
+#: static/bundle/options.js:25061 static/bundle/options.js:29765
+#: static/bundle/options.js:37544
 msgid "Custom"
 msgstr "Personnalisé"
 
@@ -2664,8 +2694,8 @@ msgstr "Espacement des icônes"
 msgid "Icons Size"
 msgstr "Taille des icônes"
 
-#: inc/panel-builder/header/button/options.php:216
-#: inc/panel-builder/header/text/options.php:127
+#: inc/panel-builder/header/button/options.php:222
+#: inc/panel-builder/header/text/options.php:131
 msgid "User Visibility"
 msgstr "Visibilité de l’utilisateur/utilisatrice"
 
@@ -2682,7 +2712,7 @@ msgstr "Résultats en direct"
 #: inc/options/single-elements/post-share-box.php:294
 #: inc/panel-builder/header/cart/options.php:65
 #: inc/panel-builder/header/cart/options.php:1035
-#: inc/panel-builder/header/offcanvas/options.php:304
+#: inc/panel-builder/header/offcanvas/options.php:302
 #: inc/panel-builder/header/search/options.php:47
 #: inc/panel-builder/header/search/options.php:761
 #: inc/panel-builder/header/trigger/options.php:38
@@ -2712,21 +2742,21 @@ msgid "Ghost"
 msgstr "Fantôme"
 
 #: inc/panel-builder/header/cart/options.php:638
-#: inc/panel-builder/header/offcanvas/options.php:36
+#: inc/panel-builder/header/offcanvas/options.php:34
 msgid "Right Side"
 msgstr "Coté droit"
 
 #: inc/panel-builder/header/cart/options.php:637
-#: inc/panel-builder/header/offcanvas/options.php:35
+#: inc/panel-builder/header/offcanvas/options.php:33
 msgid "Left Side"
 msgstr "Côté gauche"
 
 #: inc/panel-builder/header/cart/options.php:629
-#: inc/panel-builder/header/offcanvas/options.php:28
+#: inc/panel-builder/header/offcanvas/options.php:27
 msgid "Reveal From"
 msgstr "Révéler depuis"
 
-#: inc/panel-builder/header/offcanvas/options.php:18
+#: inc/panel-builder/header/offcanvas/options.php:17
 msgid "Side Panel"
 msgstr "Panneau latéral"
 
@@ -2750,22 +2780,22 @@ msgstr "Menu 1"
 #: inc/panel-builder/footer/menu/options.php:204
 #: inc/panel-builder/footer/socials/options.php:385
 #: inc/panel-builder/footer/widget-area-1/options.php:116
-#: inc/panel-builder/header/button/options.php:587
+#: inc/panel-builder/header/button/options.php:593
 #: inc/panel-builder/header/cart/options.php:536
-#: inc/panel-builder/header/logo/options.php:609
-#: inc/panel-builder/header/menu/options.php:490
+#: inc/panel-builder/header/logo/options.php:623
+#: inc/panel-builder/header/menu/options.php:498
 #: inc/panel-builder/header/mobile-menu/options.php:506
 #: inc/panel-builder/header/offcanvas-logo/options.php:37
 #: inc/panel-builder/header/socials/options.php:644
-#: inc/panel-builder/header/text/options.php:318
+#: inc/panel-builder/header/text/options.php:322
 #: inc/panel-builder/header/trigger/options.php:585
 msgid "Margin"
 msgstr "Marges externes"
 
-#: inc/panel-builder/header/menu/options.php:375
-#: inc/panel-builder/header/menu/options.php:408
-#: inc/panel-builder/header/menu/options.php:429
-#: inc/panel-builder/header/menu/options.php:449
+#: inc/panel-builder/header/menu/options.php:383
+#: inc/panel-builder/header/menu/options.php:416
+#: inc/panel-builder/header/menu/options.php:437
+#: inc/panel-builder/header/menu/options.php:457
 msgid "Active Indicator Color"
 msgstr "Couleur de l’indicateur actif"
 
@@ -2805,7 +2835,7 @@ msgstr "Vous n’avez pas encore de menu, veuillez en créer un ici &rarr ;"
 msgid "Card Border"
 msgstr "Bord de la carte"
 
-#: inc/options/general/page-title.php:905
+#: inc/options/general/page-title.php:927
 #: inc/options/general/posts-listing.php:791
 msgid "Meta Font"
 msgstr "Police de méta"
@@ -2844,7 +2874,7 @@ msgstr "Hacker News"
 msgid "Skip to content"
 msgstr "Passer au contenu"
 
-#: inc/options/general/meta.php:172 inc/options/general/page-title.php:512
+#: inc/options/general/meta.php:172 inc/options/general/page-title.php:534
 msgid "Meta Elements"
 msgstr "Éléments méta"
 
@@ -2857,15 +2887,15 @@ msgstr "Hors champ"
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:19
 #: static/js/customizer/sync/builder.js:133
-#: static/bundle/customizer-controls.js:5590
-#: static/bundle/customizer-controls.js:16844 static/bundle/options.js:14959
-#: static/bundle/options.js:16489 static/bundle/sync.min.js:8994
+#: static/bundle/customizer-controls.js:5601
+#: static/bundle/customizer-controls.js:16834 static/bundle/options.js:14938
+#: static/bundle/options.js:16468 static/bundle/sync.min.js:9023
 msgid "Bottom Row"
 msgstr "Rangée du bas"
 
 #: inc/panel-builder/footer/middle-row/config.php:4
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
-#: static/bundle/customizer-controls.js:16843 static/bundle/options.js:14958
+#: static/bundle/customizer-controls.js:16833 static/bundle/options.js:14937
 msgid "Middle Row"
 msgstr "Rangée du milieu"
 
@@ -2874,9 +2904,9 @@ msgstr "Rangée du milieu"
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/customizer/panels-builder/placements/PlacementsBuilder/Row.js:17
 #: static/js/customizer/sync/builder.js:117
-#: static/bundle/customizer-controls.js:5588
-#: static/bundle/customizer-controls.js:16842 static/bundle/options.js:14957
-#: static/bundle/options.js:16487 static/bundle/sync.min.js:8978
+#: static/bundle/customizer-controls.js:5599
+#: static/bundle/customizer-controls.js:16832 static/bundle/options.js:14936
+#: static/bundle/options.js:16466 static/bundle/sync.min.js:9007
 msgid "Top Row"
 msgstr "Rangée supérieure"
 
@@ -2920,22 +2950,22 @@ msgstr "Publications"
 msgid "Chose in which post types do you want to perform searches."
 msgstr "Choisir dans quels types de publication il faut effectuer les recherches."
 
-#: inc/panel-builder/header/logo/options.php:506
-#: inc/panel-builder/header/logo/options.php:535
-#: inc/panel-builder/header/logo/options.php:557
-#: inc/panel-builder/header/logo/options.php:578
+#: inc/panel-builder/header/logo/options.php:520
+#: inc/panel-builder/header/logo/options.php:549
+#: inc/panel-builder/header/logo/options.php:571
+#: inc/panel-builder/header/logo/options.php:592
 msgid "Site Tagline Color"
 msgstr "Couleur du slogan du site"
 
-#: inc/panel-builder/header/logo/options.php:496
+#: inc/panel-builder/header/logo/options.php:510
 msgid "Site Tagline Font"
 msgstr "Police de caractères du slogan du site"
 
-#: inc/panel-builder/header/logo/options.php:360
-#: inc/panel-builder/header/logo/options.php:389
-#: inc/panel-builder/header/logo/options.php:420
-#: inc/panel-builder/header/logo/options.php:450 static/bundle/options.js:2
-#: static/js/backend/taxonomies.js:116 static/bundle/options.js:37727
+#: inc/panel-builder/header/logo/options.php:374
+#: inc/panel-builder/header/logo/options.php:403
+#: inc/panel-builder/header/logo/options.php:434
+#: inc/panel-builder/header/logo/options.php:464 static/bundle/options.js:2
+#: static/js/backend/taxonomies.js:116 static/bundle/options.js:37713
 msgid "Site Title Color"
 msgstr "Couleur du titre du site"
 
@@ -2948,7 +2978,7 @@ msgid "Site Tagline"
 msgstr "Slogan du site"
 
 #: inc/options/general/comments-single.php:181
-#: inc/options/general/page-title.php:1171
+#: inc/options/general/page-title.php:1193
 #: inc/options/single-elements/related-posts.php:629
 msgid "Container Background"
 msgstr "Arrière-plan du conteneur"
@@ -3008,8 +3038,8 @@ msgstr "Large"
 msgid "Content Area Style"
 msgstr "Style de la zone de contenu"
 
-#: inc/options/general/page-title.php:1247
-#: inc/options/general/page-title.php:1288 inc/options/meta/default.php:80
+#: inc/options/general/page-title.php:1269
+#: inc/options/general/page-title.php:1310 inc/options/meta/default.php:80
 #: inc/options/meta/default.php:111 inc/options/meta/page.php:79
 #: inc/options/meta/page.php:110 inc/options/meta/post.php:75
 #: inc/options/meta/post.php:109
@@ -3018,17 +3048,17 @@ msgstr "Style de la zone de contenu"
 #: static/js/options/options/background/ImagePicker.js:118
 #: static/js/options/options/ct-border.js:45
 #: static/js/options/options/ct-box-shadow.js:65
-#: static/bundle/customizer-controls.js:14758
-#: static/bundle/customizer-controls.js:15349
-#: static/bundle/customizer-controls.js:15755 static/bundle/options.js:12873
-#: static/bundle/options.js:13464 static/bundle/options.js:13870
+#: static/bundle/customizer-controls.js:14748
+#: static/bundle/customizer-controls.js:15339
+#: static/bundle/customizer-controls.js:15745 static/bundle/options.js:12852
+#: static/bundle/options.js:13443 static/bundle/options.js:13849
 msgid "Inherit"
 msgstr "Hérité"
 
 #: inc/options/general/posts-listing.php:68
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/background/ImagePicker.js:92
-#: static/bundle/customizer-controls.js:14732 static/bundle/options.js:12847
+#: static/bundle/customizer-controls.js:14722 static/bundle/options.js:12826
 msgid "Cover"
 msgstr "Couvrir"
 
@@ -3038,10 +3068,10 @@ msgstr "Couvrir"
 #: static/js/options/options/background/BackgroundModal.js:64
 #: static/js/options/options/background/BackgroundModal.js:107
 #: static/js/options/options/ct-background.js:164
-#: static/bundle/customizer-controls.js:14973
-#: static/bundle/customizer-controls.js:15016
-#: static/bundle/customizer-controls.js:15251 static/bundle/options.js:13088
-#: static/bundle/options.js:13131 static/bundle/options.js:13366
+#: static/bundle/customizer-controls.js:14963
+#: static/bundle/customizer-controls.js:15006
+#: static/bundle/customizer-controls.js:15241 static/bundle/options.js:13067
+#: static/bundle/options.js:13110 static/bundle/options.js:13345
 msgid "Image"
 msgstr "Image"
 
@@ -3069,7 +3099,7 @@ msgstr "Afficher les flèches"
 #: inc/panel-builder/header/trigger/options.php:59
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/box-shadow/box-shadow-modal.js:227
-#: static/bundle/customizer-controls.js:15664 static/bundle/options.js:13779
+#: static/bundle/customizer-controls.js:15654 static/bundle/options.js:13758
 msgid "Outline"
 msgstr "Contour"
 
@@ -3097,7 +3127,7 @@ msgstr "Couleur des icônes"
 #: inc/panel-builder/header/trigger/options.php:107
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-spacing.js:94
-#: static/bundle/customizer-controls.js:25665 static/bundle/options.js:25665
+#: static/bundle/customizer-controls.js:25655 static/bundle/options.js:25644
 msgid "Right"
 msgstr "À droite"
 
@@ -3107,7 +3137,7 @@ msgstr "À droite"
 #: inc/panel-builder/header/trigger/options.php:106
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-spacing.js:93
-#: static/bundle/customizer-controls.js:25664 static/bundle/options.js:25664
+#: static/bundle/customizer-controls.js:25654 static/bundle/options.js:25643
 msgid "Left"
 msgstr "Gauche"
 
@@ -3116,7 +3146,7 @@ msgid "Base Font"
 msgstr "Police de base"
 
 #: inc/panel-builder/header/logo/options.php:126
-#: inc/panel-builder/header/logo/options.php:349
+#: inc/panel-builder/header/logo/options.php:363
 msgid "Site Title"
 msgstr "Titre du site"
 
@@ -3130,7 +3160,7 @@ msgid "Typography"
 msgstr "Typographie"
 
 #: inc/options/general/content-elements.php:25
-#: inc/options/general/page-title.php:723
+#: inc/options/general/page-title.php:745
 #: inc/options/general/posts-listing.php:285
 #: inc/options/posts/woo-categories.php:174
 #: inc/panel-builder/footer/socials/options.php:109
@@ -3139,9 +3169,9 @@ msgstr "Typographie"
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-border.js:75
 #: static/js/options/options/ct-box-shadow.js:68
-#: static/bundle/customizer-controls.js:15379
-#: static/bundle/customizer-controls.js:15758 static/bundle/options.js:13494
-#: static/bundle/options.js:13873
+#: static/bundle/customizer-controls.js:15369
+#: static/bundle/customizer-controls.js:15748 static/bundle/options.js:13473
+#: static/bundle/options.js:13852
 msgid "None"
 msgstr "Aucun"
 
@@ -3187,7 +3217,7 @@ msgstr "Gutenberg"
 msgid "Enhanced Grid"
 msgstr "Grille améliorée"
 
-#: inc/options/general/page-title.php:828
+#: inc/options/general/page-title.php:850
 #: inc/options/general/posts-listing.php:673
 #: inc/options/integrations/tutorlms-single.php:8
 #: inc/options/posts/woo-categories.php:335
@@ -3199,12 +3229,12 @@ msgstr "Police du titre"
 #: inc/options/posts/woo-single.php:79 inc/options/posts/woo-single.php:117
 #: inc/panel-builder/footer/copyright/options.php:95
 #: inc/panel-builder/footer/menu/options.php:153
-#: inc/panel-builder/header/menu/options.php:140
-#: inc/panel-builder/header/menu/options.php:657
+#: inc/panel-builder/header/menu/options.php:148
+#: inc/panel-builder/header/menu/options.php:665
 #: inc/panel-builder/header/mobile-menu/options.php:189
 #: inc/panel-builder/header/mobile-menu/options.php:338
 #: inc/panel-builder/header/search/options.php:486
-#: inc/panel-builder/header/text/options.php:152
+#: inc/panel-builder/header/text/options.php:156
 msgid "Font"
 msgstr "Police"
 
@@ -3281,25 +3311,10 @@ msgstr "Annuler la réponse"
 msgid "Leave a Reply"
 msgstr "Laisser un commentaire"
 
-#: inc/components/hero/elements.php:325
-msgid "It seems we can't find what you're looking for. Perhaps searching can help."
-msgstr "Il semble qu’aucun résultat n’ait été trouvé. Une recherche pourrait vous aider."
-
 #. translators: %s are the opening and closing of the html tags
-#: inc/components/hero/elements.php:342
+#: inc/components/hero/elements.php:352
 msgid "%sSorry, but nothing matched your search terms. Please try again with some different keywords.%s"
 msgstr "%sDésolé, mais rien ne correspond à vos termes de recherche. Veuillez réessayer avec d’autres mots-clés.%s"
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content-none.php:16
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Prêt à publier votre 1ère publication ? <a href=\"%1$s\">Lancez vous ici</a>."
-
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/single/content-helpers.php:225 inc/template-tags.php:93
-#: template-parts/single.php:38
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuer la lecture de <span class=\"screen-reader-text\">« %s »</span>"
 
 #: inc/single/comments.php:248
 msgid "Your comment is awaiting moderation."
@@ -3311,12 +3326,12 @@ msgid "%1$s / %2$s"
 msgstr "%1$s / %2$s"
 
 #. translators: post title
-#: inc/template-tags.php:293
+#: inc/template-tags.php:300
 msgid "Next %s"
 msgstr "%s suivant"
 
 #. translators: post title
-#: inc/template-tags.php:268
+#: inc/template-tags.php:275
 msgid "Previous %s"
 msgstr "%s précédent"
 
@@ -3328,11 +3343,6 @@ msgstr "Odnoklassniki"
 #: inc/options/single-elements/post-share-box.php:190
 msgid "Reddit"
 msgstr "Reddit"
-
-#. translators: %s is the number of results
-#: inc/components/hero/elements.php:190 inc/components/hero/elements.php:335
-msgid "<span>Search Results for</span> %s"
-msgstr "<span>Résultats de recherche pour</span> %s"
 
 #: inc/customizer/init.php:60
 msgid "Core"
@@ -3587,7 +3597,7 @@ msgid "Related Criteria"
 msgstr "Critères similaires"
 
 #: inc/options/single-elements/related-posts.php:19
-#: inc/options/single-elements/related-posts.php:86 inc/template-tags.php:418
+#: inc/options/single-elements/related-posts.php:86 inc/template-tags.php:426
 msgid "Related Posts"
 msgstr "Publications similaires"
 
@@ -3627,7 +3637,7 @@ msgstr "Réseaux de partage"
 #: inc/panel-builder/header/trigger/options.php:108
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-spacing.js:92
-#: static/bundle/customizer-controls.js:25663 static/bundle/options.js:25663
+#: static/bundle/customizer-controls.js:25653 static/bundle/options.js:25642
 msgid "Bottom"
 msgstr "En bas"
 
@@ -3636,7 +3646,7 @@ msgstr "En bas"
 #: inc/panel-builder/header/logo/options.php:248
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-spacing.js:91
-#: static/bundle/customizer-controls.js:25662 static/bundle/options.js:25662
+#: static/bundle/customizer-controls.js:25652 static/bundle/options.js:25641
 msgid "Top"
 msgstr "En haut"
 
@@ -3697,7 +3707,7 @@ msgid "Search Page"
 msgstr "Page de recherche"
 
 #: inc/options/customizer.php:133 inc/panel-builder/header/search/options.php:5
-#: inc/single/content-helpers.php:273
+#: inc/single/content-helpers.php:280
 msgid "Pages"
 msgstr "Pages"
 
@@ -3753,11 +3763,11 @@ msgstr "Forme du bouton"
 msgid "Scroll to Top"
 msgstr "Retour haut de page"
 
-#: inc/panel-builder/header/menu/options.php:579
+#: inc/panel-builder/header/menu/options.php:587
 msgid "Reveal Effect"
 msgstr "Effet d’apparition"
 
-#: inc/options/general/page-title.php:837
+#: inc/options/general/page-title.php:859
 #: inc/options/general/posts-listing.php:686
 #: inc/options/integrations/tutorlms-single.php:17
 msgid "Title Font Color"
@@ -3783,38 +3793,38 @@ msgstr "Marge externe de la barre latérale"
 msgid "Sidebar Width"
 msgstr "Largeur de la barre latérale"
 
-#: inc/options/general/page-title.php:1151
+#: inc/options/general/page-title.php:1173
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/background/ImagePicker.js:183
-#: static/bundle/customizer-controls.js:14823 static/bundle/options.js:12938
+#: static/bundle/customizer-controls.js:14813 static/bundle/options.js:12917
 msgid "Image Overlay Color"
 msgstr "Couleur de superposition d’image"
 
-#: inc/options/general/page-title.php:743
+#: inc/options/general/page-title.php:765
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/background/ImagePicker.js:28
-#: static/bundle/customizer-controls.js:14668 static/bundle/options.js:12783
+#: static/bundle/customizer-controls.js:14658 static/bundle/options.js:12762
 msgid "Change Image"
 msgstr "Modifier l’image"
 
-#: inc/options/general/page-title.php:742
+#: inc/options/general/page-title.php:764
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/backend/taxonomies.js:112
 #: static/js/options/options/background/ImagePicker.js:27
-#: static/bundle/customizer-controls.js:14667 static/bundle/options.js:12782
-#: static/bundle/options.js:37723
+#: static/bundle/customizer-controls.js:14657 static/bundle/options.js:12761
+#: static/bundle/options.js:37709
 msgid "Select Image"
 msgstr "Sélectionner l’image"
 
-#: inc/options/general/page-title.php:737
+#: inc/options/general/page-title.php:759
 msgid "Custom Image"
 msgstr "Image personnalisée"
 
-#: inc/options/general/page-title.php:799
+#: inc/options/general/page-title.php:821
 msgid "Container Min Height"
 msgstr "Hauteur minimale du conteneur"
 
-#: inc/components/hero/elements.php:361
+#: inc/components/hero/elements.php:371
 msgid "This is where you can add new products to your store."
 msgstr "Ceci est l’endroit où vous pouvez ajouter de nouveaux produits dans votre boutique."
 
@@ -3822,25 +3832,25 @@ msgstr "Ceci est l’endroit où vous pouvez ajouter de nouveaux produits dans v
 msgid "Description"
 msgstr "Description"
 
-#: inc/components/breadcrumbs.php:8 inc/components/hero/elements.php:206
+#: inc/components/breadcrumbs.php:8 inc/components/hero/elements.php:220
 #: inc/options/general/breadcrumbs.php:101
 #: inc/options/general/page-title.php:115
-#: inc/options/general/page-title.php:338
+#: inc/options/general/page-title.php:360
 #: admin/dashboard/static/bundle/main.js:2
 #: admin/dashboard/static/js/Navigation.js:24
 #: admin/dashboard/static/bundle/main.js:4032
 msgid "Home"
 msgstr "Accueil"
 
-#: inc/components/hero/elements.php:206
+#: inc/components/hero/elements.php:220
 #: inc/panel-builder/header/search/options.php:6
 msgid "Products"
 msgstr "Produits"
 
 #: inc/options/posts/woo-categories.php:292
 #: inc/options/single-elements/post-share-box.php:386
-#: inc/panel-builder/header/logo/options.php:264
-#: inc/panel-builder/header/text/options.php:53
+#: inc/panel-builder/header/logo/options.php:266
+#: inc/panel-builder/header/text/options.php:57
 msgid "Content Alignment"
 msgstr "Alignement du contenu"
 
@@ -3854,10 +3864,10 @@ msgstr "Type"
 #: inc/options/general/posts-listing.php:1285
 #: inc/options/general/sidebar.php:480
 #: inc/options/single-elements/author-box.php:476
-#: inc/panel-builder/header/button/options.php:578
+#: inc/panel-builder/header/button/options.php:584
 #: inc/panel-builder/header/cart/options.php:1051
 #: inc/panel-builder/header/middle-row/options.php:491
-#: inc/panel-builder/header/offcanvas/options.php:320
+#: inc/panel-builder/header/offcanvas/options.php:318
 #: inc/panel-builder/header/search/options.php:777
 #: inc/panel-builder/header/trigger/options.php:570
 msgid "Border Radius"
@@ -3889,7 +3899,7 @@ msgstr "Petit"
 
 #: inc/options/general/breadcrumbs.php:84
 #: inc/options/general/breadcrumbs.php:173 inc/options/general/colors.php:693
-#: inc/options/general/page-title.php:1110
+#: inc/options/general/page-title.php:1132
 #: inc/options/general/posts-listing.php:405
 #: inc/options/posts/woo-general.php:727 inc/options/posts/woo-general.php:758
 #: inc/options/single-elements/author-box.php:290
@@ -3910,7 +3920,7 @@ msgstr "Texte"
 #: inc/panel-builder/header/middle-row/options.php:149
 #: inc/panel-builder/header/middle-row/options.php:158
 #: inc/panel-builder/header/middle-row/options.php:173
-#: inc/panel-builder/header/offcanvas/options.php:184
+#: inc/panel-builder/header/offcanvas/options.php:182
 #: inc/panel-builder/header/search/options.php:646
 msgid "Background"
 msgstr "Arrière-plan"
@@ -3922,7 +3932,7 @@ msgstr "Arrière-plan"
 msgid "Badge Color"
 msgstr "Couleur du badge"
 
-#: inc/components/builder/header-elements.php:393
+#: inc/components/builder/header-elements.php:394
 msgid "Shopping Cart"
 msgstr "Panier d’achat"
 
@@ -3947,7 +3957,7 @@ msgstr "Rechercher"
 #: inc/panel-builder/header/cart/options.php:345
 #: inc/panel-builder/header/cart/options.php:374
 #: inc/panel-builder/header/cart/options.php:925
-#: inc/panel-builder/header/offcanvas/options.php:190
+#: inc/panel-builder/header/offcanvas/options.php:188
 #: inc/panel-builder/header/search/options.php:269
 #: inc/panel-builder/header/search/options.php:296
 #: inc/panel-builder/header/search/options.php:328
@@ -3964,7 +3974,7 @@ msgstr "Couleur de l’icône"
 msgid "Off Canvas"
 msgstr "Hors-champ"
 
-#: inc/panel-builder/header/offcanvas/options.php:17
+#: inc/panel-builder/header/offcanvas/options.php:16
 msgid "Modal"
 msgstr "Modal"
 
@@ -3972,22 +3982,22 @@ msgstr "Modal"
 msgid "Dropdown Top Offset"
 msgstr "Décalage en haut du menu déroulant"
 
-#: inc/panel-builder/header/menu/options.php:590
+#: inc/panel-builder/header/menu/options.php:598
 msgid "Opacity"
 msgstr "Opacité"
 
-#: inc/panel-builder/header/menu/options.php:589
+#: inc/panel-builder/header/menu/options.php:597
 msgid "Inner Reveal"
 msgstr "Révélation interne"
 
-#: inc/panel-builder/header/menu/options.php:507
+#: inc/panel-builder/header/menu/options.php:515
 msgid "Dropdown Options"
 msgstr "Options du menu déroulant"
 
 #: inc/components/menus.php:490 inc/integrations/custom-post-types.php:193
 #: inc/options/general/back-to-top.php:37
 #: inc/options/general/breadcrumbs.php:12 inc/options/general/meta.php:139
-#: inc/options/general/meta.php:341 inc/options/general/page-title.php:703
+#: inc/options/general/meta.php:341 inc/options/general/page-title.php:725
 #: inc/options/posts/woo-general.php:612
 #: inc/options/single-elements/featured-image.php:55
 #: inc/options/single-elements/post-nav.php:41
@@ -3998,7 +4008,7 @@ msgstr "Options du menu déroulant"
 #: inc/panel-builder/header/button/options.php:17
 #: inc/panel-builder/header/button/options.php:37
 #: inc/panel-builder/header/menu/options.php:83
-#: inc/panel-builder/header/menu/options.php:588
+#: inc/panel-builder/header/menu/options.php:596
 #: inc/panel-builder/header/middle-row/options.php:41
 #: inc/panel-builder/header/middle-row/options.php:283
 #: inc/panel-builder/header/middle-row/options.php:390
@@ -4007,23 +4017,23 @@ msgstr "Options du menu déroulant"
 #: static/js/options/components/InputWithOnlyNumbers.js:13
 #: static/js/options/options/typography/helpers.js:67
 #: static/js/options/options/typography/helpers.js:121
-#: static/bundle/customizer-controls.js:12798
-#: static/bundle/customizer-controls.js:25955
-#: static/bundle/customizer-controls.js:26009 static/bundle/options.js:10885
-#: static/bundle/options.js:25955 static/bundle/options.js:26009
-#: static/bundle/options.js:37557
+#: static/bundle/customizer-controls.js:12809
+#: static/bundle/customizer-controls.js:25945
+#: static/bundle/customizer-controls.js:25999 static/bundle/options.js:10885
+#: static/bundle/options.js:25934 static/bundle/options.js:25988
+#: static/bundle/options.js:37543
 msgid "Default"
 msgstr "Défaut"
 
 #: inc/options/general/meta.php:399
-#: inc/panel-builder/header/menu/options.php:951
+#: inc/panel-builder/header/menu/options.php:959
 #: inc/panel-builder/header/mobile-menu/options.php:299
 msgid "Items Divider"
 msgstr "Séparateur des éléments"
 
 #: inc/panel-builder/footer/menu/options.php:51
 #: inc/panel-builder/header/menu/options.php:94
-#: inc/panel-builder/header/menu/options.php:569
+#: inc/panel-builder/header/menu/options.php:577
 #: inc/panel-builder/header/mobile-menu/options.php:112
 msgid "Items Spacing"
 msgstr "Espacement des éléments"
@@ -4114,8 +4124,9 @@ msgid "General Options"
 msgstr "Options générales"
 
 #: inc/options/general/back-to-top.php:209
-#: inc/options/general/page-title.php:490
-#: inc/options/general/page-title.php:786 inc/options/general/pagination.php:85
+#: inc/options/general/page-title.php:309
+#: inc/options/general/page-title.php:512
+#: inc/options/general/page-title.php:808 inc/options/general/pagination.php:85
 #: inc/options/general/pagination.php:104 inc/options/general/sidebar.php:242
 #: inc/options/posts/woo-single.php:250 inc/options/posts/woo-single.php:274
 #: inc/options/single-elements/author-box.php:193
@@ -4131,20 +4142,21 @@ msgstr "Options générales"
 #: inc/panel-builder/footer/options.php:19
 #: inc/panel-builder/footer/socials/options.php:153
 #: inc/panel-builder/footer/socials/options.php:224
-#: inc/panel-builder/header/button/options.php:207
+#: inc/panel-builder/header/button/options.php:213
 #: inc/panel-builder/header/cart/options.php:96
 #: inc/panel-builder/header/logo/options.php:160
 #: inc/panel-builder/header/logo/options.php:207
-#: inc/panel-builder/header/logo/options.php:329
+#: inc/panel-builder/header/logo/options.php:331
 #: inc/panel-builder/header/search/options.php:70
 #: inc/panel-builder/header/socials/options.php:152
-#: inc/panel-builder/header/text/options.php:118
+#: inc/panel-builder/header/text/options.php:122
 #: inc/panel-builder/header/trigger/options.php:81
 msgid "Desktop"
 msgstr "Ordinateur de bureau"
 
 #: inc/options/general/back-to-top.php:197
-#: inc/options/general/page-title.php:479
+#: inc/options/general/page-title.php:298
+#: inc/options/general/page-title.php:501
 #: inc/options/single-elements/author-box.php:181
 #: inc/options/single-elements/post-share-box.php:410
 #: inc/options/single-elements/related-posts.php:421
@@ -4152,8 +4164,9 @@ msgid "Visibility"
 msgstr "Visibilité"
 
 #: inc/options/general/back-to-top.php:211
-#: inc/options/general/page-title.php:492
-#: inc/options/general/page-title.php:788 inc/options/general/pagination.php:87
+#: inc/options/general/page-title.php:311
+#: inc/options/general/page-title.php:514
+#: inc/options/general/page-title.php:810 inc/options/general/pagination.php:87
 #: inc/options/general/pagination.php:106 inc/options/general/sidebar.php:244
 #: inc/options/posts/woo-single.php:252 inc/options/posts/woo-single.php:276
 #: inc/options/single-elements/author-box.php:195
@@ -4169,28 +4182,29 @@ msgstr "Visibilité"
 #: inc/panel-builder/footer/options.php:21
 #: inc/panel-builder/footer/socials/options.php:155
 #: inc/panel-builder/footer/socials/options.php:226
-#: inc/panel-builder/header/button/options.php:152
-#: inc/panel-builder/header/button/options.php:209
+#: inc/panel-builder/header/button/options.php:158
+#: inc/panel-builder/header/button/options.php:215
 #: inc/panel-builder/header/cart/options.php:98
 #: inc/panel-builder/header/cart/options.php:1100
 #: inc/panel-builder/header/logo/options.php:162
 #: inc/panel-builder/header/logo/options.php:209
-#: inc/panel-builder/header/logo/options.php:331
+#: inc/panel-builder/header/logo/options.php:333
 #: inc/panel-builder/header/mobile-menu/options.php:166
 #: inc/panel-builder/header/search/options.php:72
 #: inc/panel-builder/header/search/options.php:815
 #: inc/panel-builder/header/socials/options.php:154
 #: inc/panel-builder/header/socials/options.php:180
-#: inc/panel-builder/header/text/options.php:120
-#: inc/panel-builder/header/text/options.php:355
+#: inc/panel-builder/header/text/options.php:124
+#: inc/panel-builder/header/text/options.php:359
 #: inc/panel-builder/header/trigger/options.php:83
 #: inc/panel-builder/header/trigger/options.php:617
 msgid "Mobile"
 msgstr "Mobile"
 
 #: inc/options/general/back-to-top.php:210
-#: inc/options/general/page-title.php:491
-#: inc/options/general/page-title.php:787 inc/options/general/pagination.php:86
+#: inc/options/general/page-title.php:310
+#: inc/options/general/page-title.php:513
+#: inc/options/general/page-title.php:809 inc/options/general/pagination.php:86
 #: inc/options/general/pagination.php:105 inc/options/general/sidebar.php:243
 #: inc/options/posts/woo-single.php:251 inc/options/posts/woo-single.php:275
 #: inc/options/single-elements/author-box.php:194
@@ -4206,26 +4220,26 @@ msgstr "Mobile"
 #: inc/panel-builder/footer/options.php:20
 #: inc/panel-builder/footer/socials/options.php:154
 #: inc/panel-builder/footer/socials/options.php:225
-#: inc/panel-builder/header/button/options.php:151
-#: inc/panel-builder/header/button/options.php:208
+#: inc/panel-builder/header/button/options.php:157
+#: inc/panel-builder/header/button/options.php:214
 #: inc/panel-builder/header/cart/options.php:97
 #: inc/panel-builder/header/cart/options.php:1099
 #: inc/panel-builder/header/logo/options.php:161
 #: inc/panel-builder/header/logo/options.php:208
-#: inc/panel-builder/header/logo/options.php:330
+#: inc/panel-builder/header/logo/options.php:332
 #: inc/panel-builder/header/mobile-menu/options.php:165
 #: inc/panel-builder/header/search/options.php:71
 #: inc/panel-builder/header/search/options.php:814
 #: inc/panel-builder/header/socials/options.php:153
 #: inc/panel-builder/header/socials/options.php:179
-#: inc/panel-builder/header/text/options.php:119
-#: inc/panel-builder/header/text/options.php:354
+#: inc/panel-builder/header/text/options.php:123
+#: inc/panel-builder/header/text/options.php:358
 #: inc/panel-builder/header/trigger/options.php:82
 #: inc/panel-builder/header/trigger/options.php:616
 msgid "Tablet"
 msgstr "Tablette"
 
-#: inc/options/general/page-title.php:696
+#: inc/options/general/page-title.php:718
 #: inc/panel-builder/footer/middle-row/options.php:434
 msgid "Container Width"
 msgstr "Largeur du conteneur"
@@ -4253,7 +4267,7 @@ msgstr "Couleur du titre"
 msgid "Cards Gap"
 msgstr "Écart entre les cartes"
 
-#: inc/options/general/meta.php:194 inc/options/general/page-title.php:377
+#: inc/options/general/meta.php:194 inc/options/general/page-title.php:399
 #: inc/options/posts/woo-general.php:806
 msgid "Avatar Size"
 msgstr "Taille de l’avatar"
@@ -4262,12 +4276,12 @@ msgstr "Taille de l’avatar"
 #: inc/panel-builder/footer/widget-area-1/options.php:111
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/typography/FontOptions.js:234
-#: static/bundle/customizer-controls.js:29107 static/bundle/options.js:29107
+#: static/bundle/customizer-controls.js:29097 static/bundle/options.js:29086
 msgid "Underline"
 msgstr "Souligné"
 
 #: inc/options/general/comments-single.php:15 inc/options/general/meta.php:235
-#: inc/options/general/page-title.php:521 inc/single/single-helpers.php:263
+#: inc/options/general/page-title.php:543 inc/single/single-helpers.php:267
 msgid "Comments"
 msgstr "Commentaires"
 
@@ -4279,7 +4293,7 @@ msgstr "Catégories"
 msgid "Author"
 msgstr "Auteur/autrice"
 
-#: inc/options/general/page-title.php:504
+#: inc/options/general/page-title.php:526
 #: inc/options/general/posts-listing.php:426
 msgid "Post Meta"
 msgstr "Métas de la publication"
@@ -4300,7 +4314,7 @@ msgstr "Extrait"
 #: inc/options/single-elements/related-posts.php:223
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-ratio.js:61
-#: static/bundle/customizer-controls.js:19893 static/bundle/options.js:19893
+#: static/bundle/customizer-controls.js:19883 static/bundle/options.js:19872
 msgid "Image Ratio"
 msgstr "Ratio de l'image"
 
@@ -4310,7 +4324,7 @@ msgstr "Ratio de l'image"
 msgid "Featured Image"
 msgstr "Image mise en avant"
 
-#: inc/options/general/page-title.php:307
+#: inc/options/general/page-title.php:329
 #: inc/options/general/posts-listing.php:221
 msgid "Heading tag"
 msgstr "Balise d’en-tête"
@@ -4343,10 +4357,10 @@ msgstr "Grille"
 #: inc/options/general/posts-listing.php:394
 #: inc/options/general/posts-listing.php:1335
 #: inc/panel-builder/header/cart/options.php:917
-#: inc/panel-builder/header/menu/options.php:561
-#: inc/panel-builder/header/menu/options.php:591
+#: inc/panel-builder/header/menu/options.php:569
+#: inc/panel-builder/header/menu/options.php:599
 #: inc/panel-builder/header/mobile-menu/options.php:84
-#: inc/panel-builder/header/offcanvas/options.php:182
+#: inc/panel-builder/header/offcanvas/options.php:180
 #: inc/panel-builder/header/search/options.php:644
 #: inc/panel-builder/header/trigger/options.php:58
 msgid "Simple"
@@ -4369,10 +4383,10 @@ msgstr "Arrière-plan du site"
 
 #: inc/options/general/pagination.php:224
 #: inc/options/general/posts-listing.php:1051
-#: inc/panel-builder/header/button/options.php:456
-#: inc/panel-builder/header/button/options.php:485
-#: inc/panel-builder/header/button/options.php:515
-#: inc/panel-builder/header/button/options.php:543
+#: inc/panel-builder/header/button/options.php:462
+#: inc/panel-builder/header/button/options.php:491
+#: inc/panel-builder/header/button/options.php:521
+#: inc/panel-builder/header/button/options.php:549
 msgid "Button Color"
 msgstr "Couleur du bouton"
 
@@ -4397,18 +4411,18 @@ msgstr "Bouton radio et case à cocher"
 #: inc/options/posts/woo-product-tabs.php:109
 #: inc/options/posts/woo-product-tabs.php:156
 #: inc/panel-builder/footer/menu/options.php:196
-#: inc/panel-builder/header/menu/options.php:227
-#: inc/panel-builder/header/menu/options.php:241
-#: inc/panel-builder/header/menu/options.php:289
-#: inc/panel-builder/header/menu/options.php:302
-#: inc/panel-builder/header/menu/options.php:350
-#: inc/panel-builder/header/menu/options.php:363
-#: inc/panel-builder/header/menu/options.php:421
-#: inc/panel-builder/header/menu/options.php:442
-#: inc/panel-builder/header/menu/options.php:462
-#: inc/panel-builder/header/menu/options.php:735
-#: inc/panel-builder/header/menu/options.php:774
-#: inc/panel-builder/header/menu/options.php:813
+#: inc/panel-builder/header/menu/options.php:235
+#: inc/panel-builder/header/menu/options.php:249
+#: inc/panel-builder/header/menu/options.php:297
+#: inc/panel-builder/header/menu/options.php:310
+#: inc/panel-builder/header/menu/options.php:358
+#: inc/panel-builder/header/menu/options.php:371
+#: inc/panel-builder/header/menu/options.php:429
+#: inc/panel-builder/header/menu/options.php:450
+#: inc/panel-builder/header/menu/options.php:470
+#: inc/panel-builder/header/menu/options.php:743
+#: inc/panel-builder/header/menu/options.php:782
+#: inc/panel-builder/header/menu/options.php:821
 #: inc/panel-builder/header/mobile-menu/options.php:229
 #: inc/panel-builder/header/mobile-menu/options.php:276
 #: inc/panel-builder/header/mobile-menu/options.php:417
@@ -4442,7 +4456,7 @@ msgstr "Taille de bordure"
 #: inc/options/single-elements/post-share-box.php:537
 #: inc/panel-builder/header/cart/options.php:744
 #: inc/panel-builder/header/cart/options.php:1000
-#: inc/panel-builder/header/offcanvas/options.php:268
+#: inc/panel-builder/header/offcanvas/options.php:266
 #: inc/panel-builder/header/search/options.php:727
 #: inc/panel-builder/header/trigger/options.php:410
 #: inc/panel-builder/header/trigger/options.php:452
@@ -4450,7 +4464,7 @@ msgstr "Taille de bordure"
 #: inc/panel-builder/header/trigger/options.php:530
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/background/BackgroundModal.js:145
-#: static/bundle/customizer-controls.js:15054 static/bundle/options.js:13169
+#: static/bundle/customizer-controls.js:15044 static/bundle/options.js:13148
 msgid "Background Color"
 msgstr "Couleur d’arrière-plan"
 
@@ -4461,7 +4475,7 @@ msgstr "Zone de texte et champ"
 #: inc/options/general/form-elements.php:71
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/typography/FontOptions.js:29
-#: static/bundle/customizer-controls.js:28902 static/bundle/options.js:28902
+#: static/bundle/customizer-controls.js:28892 static/bundle/options.js:28881
 msgid "Font Size"
 msgstr "Taille Police"
 
@@ -4485,7 +4499,7 @@ msgstr "Classique"
 #: inc/options/posts/woo-product-tabs.php:117
 #: inc/options/single-elements/author-box.php:391
 #: inc/panel-builder/header/cart/options.php:960
-#: inc/panel-builder/header/offcanvas/options.php:227
+#: inc/panel-builder/header/offcanvas/options.php:225
 #: inc/panel-builder/header/search/options.php:688
 #: inc/panel-builder/header/trigger/options.php:406
 #: inc/panel-builder/header/trigger/options.php:448
@@ -4498,9 +4512,9 @@ msgstr "Couleur de bordure"
 #: inc/options/general/back-to-top.php:276 inc/options/general/buttons.php:73
 #: inc/options/general/buttons.php:103 inc/options/general/colors.php:668
 #: inc/options/general/comments-single.php:168
-#: inc/options/general/page-title.php:941
-#: inc/options/general/page-title.php:977
-#: inc/options/general/page-title.php:1008
+#: inc/options/general/page-title.php:963
+#: inc/options/general/page-title.php:999
+#: inc/options/general/page-title.php:1030
 #: inc/options/general/pagination.php:216
 #: inc/options/general/pagination.php:246
 #: inc/options/general/posts-listing.php:733
@@ -4546,15 +4560,15 @@ msgstr "Couleur de bordure"
 #: inc/panel-builder/footer/socials/options.php:288
 #: inc/panel-builder/footer/socials/options.php:327
 #: inc/panel-builder/footer/socials/options.php:375
-#: inc/panel-builder/header/button/options.php:331
-#: inc/panel-builder/header/button/options.php:344
-#: inc/panel-builder/header/button/options.php:382
-#: inc/panel-builder/header/button/options.php:394
-#: inc/panel-builder/header/button/options.php:432
-#: inc/panel-builder/header/button/options.php:444
-#: inc/panel-builder/header/button/options.php:507
-#: inc/panel-builder/header/button/options.php:536
-#: inc/panel-builder/header/button/options.php:564
+#: inc/panel-builder/header/button/options.php:337
+#: inc/panel-builder/header/button/options.php:350
+#: inc/panel-builder/header/button/options.php:388
+#: inc/panel-builder/header/button/options.php:400
+#: inc/panel-builder/header/button/options.php:438
+#: inc/panel-builder/header/button/options.php:450
+#: inc/panel-builder/header/button/options.php:513
+#: inc/panel-builder/header/button/options.php:542
+#: inc/panel-builder/header/button/options.php:570
 #: inc/panel-builder/header/cart/options.php:212
 #: inc/panel-builder/header/cart/options.php:242
 #: inc/panel-builder/header/cart/options.php:271
@@ -4564,27 +4578,27 @@ msgstr "Couleur de bordure"
 #: inc/panel-builder/header/cart/options.php:948
 #: inc/panel-builder/header/cart/options.php:984
 #: inc/panel-builder/header/cart/options.php:1024
-#: inc/panel-builder/header/logo/options.php:412
-#: inc/panel-builder/header/logo/options.php:443
-#: inc/panel-builder/header/logo/options.php:473
-#: inc/panel-builder/header/menu/options.php:220
-#: inc/panel-builder/header/menu/options.php:235
-#: inc/panel-builder/header/menu/options.php:283
-#: inc/panel-builder/header/menu/options.php:296
-#: inc/panel-builder/header/menu/options.php:344
-#: inc/panel-builder/header/menu/options.php:357
-#: inc/panel-builder/header/menu/options.php:523
-#: inc/panel-builder/header/menu/options.php:729
-#: inc/panel-builder/header/menu/options.php:769
-#: inc/panel-builder/header/menu/options.php:808
+#: inc/panel-builder/header/logo/options.php:426
+#: inc/panel-builder/header/logo/options.php:457
+#: inc/panel-builder/header/logo/options.php:487
+#: inc/panel-builder/header/menu/options.php:228
+#: inc/panel-builder/header/menu/options.php:243
+#: inc/panel-builder/header/menu/options.php:291
+#: inc/panel-builder/header/menu/options.php:304
+#: inc/panel-builder/header/menu/options.php:352
+#: inc/panel-builder/header/menu/options.php:365
+#: inc/panel-builder/header/menu/options.php:531
+#: inc/panel-builder/header/menu/options.php:737
+#: inc/panel-builder/header/menu/options.php:777
+#: inc/panel-builder/header/menu/options.php:816
 #: inc/panel-builder/header/mobile-menu/options.php:223
 #: inc/panel-builder/header/mobile-menu/options.php:270
 #: inc/panel-builder/header/mobile-menu/options.php:411
 #: inc/panel-builder/header/mobile-menu/options.php:451
 #: inc/panel-builder/header/mobile-menu/options.php:490
-#: inc/panel-builder/header/offcanvas/options.php:214
-#: inc/panel-builder/header/offcanvas/options.php:252
-#: inc/panel-builder/header/offcanvas/options.php:293
+#: inc/panel-builder/header/offcanvas/options.php:212
+#: inc/panel-builder/header/offcanvas/options.php:250
+#: inc/panel-builder/header/offcanvas/options.php:291
 #: inc/panel-builder/header/search/options.php:194
 #: inc/panel-builder/header/search/options.php:224
 #: inc/panel-builder/header/search/options.php:253
@@ -4617,7 +4631,7 @@ msgstr "Couleur de bordure"
 #: inc/panel-builder/header/trigger/options.php:555
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/ct-border.js:115
-#: static/bundle/customizer-controls.js:15419 static/bundle/options.js:13534
+#: static/bundle/customizer-controls.js:15409 static/bundle/options.js:13513
 msgid "Hover"
 msgstr "Au survol"
 
@@ -4633,22 +4647,22 @@ msgstr "Au survol"
 #: inc/panel-builder/footer/menu/options.php:164
 #: inc/panel-builder/footer/socials/options.php:265
 #: inc/panel-builder/footer/widget-area-1/options.php:62
-#: inc/panel-builder/header/button/options.php:270
-#: inc/panel-builder/header/button/options.php:300
-#: inc/panel-builder/header/button/options.php:352
-#: inc/panel-builder/header/button/options.php:402
+#: inc/panel-builder/header/button/options.php:276
+#: inc/panel-builder/header/button/options.php:306
+#: inc/panel-builder/header/button/options.php:358
+#: inc/panel-builder/header/button/options.php:408
 #: inc/panel-builder/header/cart/options.php:189
 #: inc/panel-builder/header/cart/options.php:220
 #: inc/panel-builder/header/cart/options.php:249
 #: inc/panel-builder/header/cart/options.php:685
-#: inc/panel-builder/header/menu/options.php:157
-#: inc/panel-builder/header/menu/options.php:186
-#: inc/panel-builder/header/menu/options.php:249
-#: inc/panel-builder/header/menu/options.php:310
-#: inc/panel-builder/header/menu/options.php:672
-#: inc/panel-builder/header/menu/options.php:702
-#: inc/panel-builder/header/menu/options.php:743
-#: inc/panel-builder/header/menu/options.php:782
+#: inc/panel-builder/header/menu/options.php:165
+#: inc/panel-builder/header/menu/options.php:194
+#: inc/panel-builder/header/menu/options.php:257
+#: inc/panel-builder/header/menu/options.php:318
+#: inc/panel-builder/header/menu/options.php:680
+#: inc/panel-builder/header/menu/options.php:710
+#: inc/panel-builder/header/menu/options.php:751
+#: inc/panel-builder/header/menu/options.php:790
 #: inc/panel-builder/header/mobile-menu/options.php:198
 #: inc/panel-builder/header/mobile-menu/options.php:356
 #: inc/panel-builder/header/mobile-menu/options.php:385
@@ -4661,10 +4675,10 @@ msgstr "Au survol"
 #: inc/panel-builder/header/socials/options.php:252
 #: inc/panel-builder/header/socials/options.php:283
 #: inc/panel-builder/header/socials/options.php:312
-#: inc/panel-builder/header/text/options.php:162
-#: inc/panel-builder/header/text/options.php:191
-#: inc/panel-builder/header/text/options.php:233
-#: inc/panel-builder/header/text/options.php:272
+#: inc/panel-builder/header/text/options.php:166
+#: inc/panel-builder/header/text/options.php:195
+#: inc/panel-builder/header/text/options.php:237
+#: inc/panel-builder/header/text/options.php:276
 #: inc/panel-builder/header/trigger/options.php:185
 #: inc/panel-builder/header/trigger/options.php:216
 #: inc/panel-builder/header/trigger/options.php:245
@@ -4674,8 +4688,8 @@ msgstr "Couleur de la police"
 #: inc/options/general/back-to-top.php:219
 #: inc/options/general/breadcrumbs.php:134 inc/options/general/buttons.php:45
 #: inc/options/general/comments-single.php:141
-#: inc/options/general/page-title.php:1212
-#: inc/options/general/page-title.php:1303
+#: inc/options/general/page-title.php:1234
+#: inc/options/general/page-title.php:1325
 #: inc/options/general/pagination.php:131
 #: inc/options/general/posts-listing.php:661
 #: inc/options/general/posts-listing.php:1500
@@ -4702,20 +4716,20 @@ msgstr "Couleur de la police"
 #: inc/panel-builder/footer/middle-row/options.php:473
 #: inc/panel-builder/footer/socials/options.php:234
 #: inc/panel-builder/footer/widget-area-1/options.php:57
-#: inc/panel-builder/header/button/options.php:264
+#: inc/panel-builder/header/button/options.php:270
 #: inc/panel-builder/header/cart/options.php:135
 #: inc/panel-builder/header/cart/options.php:675
-#: inc/panel-builder/header/logo/options.php:338
-#: inc/panel-builder/header/menu/options.php:134
-#: inc/panel-builder/header/menu/options.php:651
+#: inc/panel-builder/header/logo/options.php:352
+#: inc/panel-builder/header/menu/options.php:142
+#: inc/panel-builder/header/menu/options.php:659
 #: inc/panel-builder/header/middle-row/options.php:116
 #: inc/panel-builder/header/mobile-menu/options.php:178
 #: inc/panel-builder/header/offcanvas-logo/options.php:32
-#: inc/panel-builder/header/offcanvas/options.php:100
+#: inc/panel-builder/header/offcanvas/options.php:98
 #: inc/panel-builder/header/search/options.php:116
 #: inc/panel-builder/header/search/options.php:480
 #: inc/panel-builder/header/socials/options.php:191
-#: inc/panel-builder/header/text/options.php:146
+#: inc/panel-builder/header/text/options.php:150
 #: inc/panel-builder/header/trigger/options.php:130
 msgid "Design"
 msgstr "Design"
@@ -4749,8 +4763,8 @@ msgstr "Type de pagination"
 #: inc/options/general/back-to-top.php:26
 #: inc/options/general/breadcrumbs.php:45 inc/options/general/buttons.php:19
 #: inc/options/general/comments-single.php:25
-#: inc/options/general/page-title.php:1206
-#: inc/options/general/page-title.php:1276
+#: inc/options/general/page-title.php:1228
+#: inc/options/general/page-title.php:1298
 #: inc/options/general/pagination.php:24
 #: inc/options/general/posts-listing.php:29
 #: inc/options/general/posts-listing.php:1319
@@ -4782,7 +4796,7 @@ msgstr "Type de pagination"
 #: inc/panel-builder/header/cart/options.php:567
 #: inc/panel-builder/header/logo/options.php:5
 #: inc/panel-builder/header/menu/options.php:34
-#: inc/panel-builder/header/menu/options.php:511
+#: inc/panel-builder/header/menu/options.php:519
 #: inc/panel-builder/header/middle-row/options.php:27
 #: inc/panel-builder/header/mobile-menu/options.php:25
 #: inc/panel-builder/header/offcanvas-logo/options.php:6
@@ -4810,11 +4824,11 @@ msgstr "Général"
 #: inc/options/general/form-elements.php:219
 #: inc/options/general/form-elements.php:262
 #: inc/options/general/form-elements.php:292 inc/options/general/general.php:65
-#: inc/options/general/page-title.php:850
-#: inc/options/general/page-title.php:935
-#: inc/options/general/page-title.php:971
-#: inc/options/general/page-title.php:1002
-#: inc/options/general/page-title.php:1064
+#: inc/options/general/page-title.php:872
+#: inc/options/general/page-title.php:957
+#: inc/options/general/page-title.php:993
+#: inc/options/general/page-title.php:1024
+#: inc/options/general/page-title.php:1086
 #: inc/options/general/pagination.php:210
 #: inc/options/general/pagination.php:240
 #: inc/options/general/posts-listing.php:703
@@ -4886,15 +4900,15 @@ msgstr "Général"
 #: inc/panel-builder/footer/socials/options.php:321
 #: inc/panel-builder/footer/socials/options.php:370
 #: inc/panel-builder/footer/widget-area-1/options.php:84
-#: inc/panel-builder/header/button/options.php:324
-#: inc/panel-builder/header/button/options.php:338
-#: inc/panel-builder/header/button/options.php:376
-#: inc/panel-builder/header/button/options.php:388
-#: inc/panel-builder/header/button/options.php:426
-#: inc/panel-builder/header/button/options.php:438
-#: inc/panel-builder/header/button/options.php:501
-#: inc/panel-builder/header/button/options.php:531
-#: inc/panel-builder/header/button/options.php:559
+#: inc/panel-builder/header/button/options.php:330
+#: inc/panel-builder/header/button/options.php:344
+#: inc/panel-builder/header/button/options.php:382
+#: inc/panel-builder/header/button/options.php:394
+#: inc/panel-builder/header/button/options.php:432
+#: inc/panel-builder/header/button/options.php:444
+#: inc/panel-builder/header/button/options.php:507
+#: inc/panel-builder/header/button/options.php:537
+#: inc/panel-builder/header/button/options.php:565
 #: inc/panel-builder/header/cart/options.php:206
 #: inc/panel-builder/header/cart/options.php:237
 #: inc/panel-builder/header/cart/options.php:266
@@ -4906,29 +4920,29 @@ msgstr "Général"
 #: inc/panel-builder/header/cart/options.php:943
 #: inc/panel-builder/header/cart/options.php:978
 #: inc/panel-builder/header/cart/options.php:1018
-#: inc/panel-builder/header/logo/options.php:407
-#: inc/panel-builder/header/logo/options.php:438
-#: inc/panel-builder/header/logo/options.php:468
-#: inc/panel-builder/header/logo/options.php:549
-#: inc/panel-builder/header/logo/options.php:571
-#: inc/panel-builder/header/logo/options.php:592
-#: inc/panel-builder/header/menu/options.php:215
-#: inc/panel-builder/header/menu/options.php:278
-#: inc/panel-builder/header/menu/options.php:339
-#: inc/panel-builder/header/menu/options.php:724
-#: inc/panel-builder/header/menu/options.php:764
-#: inc/panel-builder/header/menu/options.php:803
-#: inc/panel-builder/header/menu/options.php:873
-#: inc/panel-builder/header/menu/options.php:905
-#: inc/panel-builder/header/menu/options.php:935
+#: inc/panel-builder/header/logo/options.php:421
+#: inc/panel-builder/header/logo/options.php:452
+#: inc/panel-builder/header/logo/options.php:482
+#: inc/panel-builder/header/logo/options.php:563
+#: inc/panel-builder/header/logo/options.php:585
+#: inc/panel-builder/header/logo/options.php:606
+#: inc/panel-builder/header/menu/options.php:223
+#: inc/panel-builder/header/menu/options.php:286
+#: inc/panel-builder/header/menu/options.php:347
+#: inc/panel-builder/header/menu/options.php:732
+#: inc/panel-builder/header/menu/options.php:772
+#: inc/panel-builder/header/menu/options.php:811
+#: inc/panel-builder/header/menu/options.php:881
+#: inc/panel-builder/header/menu/options.php:913
+#: inc/panel-builder/header/menu/options.php:943
 #: inc/panel-builder/header/mobile-menu/options.php:218
 #: inc/panel-builder/header/mobile-menu/options.php:265
 #: inc/panel-builder/header/mobile-menu/options.php:406
 #: inc/panel-builder/header/mobile-menu/options.php:446
 #: inc/panel-builder/header/mobile-menu/options.php:485
-#: inc/panel-builder/header/offcanvas/options.php:208
-#: inc/panel-builder/header/offcanvas/options.php:246
-#: inc/panel-builder/header/offcanvas/options.php:287
+#: inc/panel-builder/header/offcanvas/options.php:206
+#: inc/panel-builder/header/offcanvas/options.php:244
+#: inc/panel-builder/header/offcanvas/options.php:285
 #: inc/panel-builder/header/search/options.php:188
 #: inc/panel-builder/header/search/options.php:219
 #: inc/panel-builder/header/search/options.php:248
@@ -4965,12 +4979,12 @@ msgstr "Général"
 #: static/js/options/options/background/ImagePicker.js:189
 #: static/js/options/options/background/PatternPicker.js:170
 #: static/js/options/options/ct-border.js:94
-#: static/bundle/customizer-controls.js:14619
-#: static/bundle/customizer-controls.js:14829
-#: static/bundle/customizer-controls.js:15064
-#: static/bundle/customizer-controls.js:15398 static/bundle/options.js:12734
-#: static/bundle/options.js:12944 static/bundle/options.js:13179
-#: static/bundle/options.js:13513
+#: static/bundle/customizer-controls.js:14609
+#: static/bundle/customizer-controls.js:14819
+#: static/bundle/customizer-controls.js:15054
+#: static/bundle/customizer-controls.js:15388 static/bundle/options.js:12713
+#: static/bundle/options.js:12923 static/bundle/options.js:13158
+#: static/bundle/options.js:13492
 msgid "Initial"
 msgstr "Initial"
 
@@ -4983,7 +4997,7 @@ msgid "Lazy Load Images"
 msgstr "Chargement différé des images"
 
 #: inc/options/general/page-title.php:15
-#: inc/options/general/page-title.php:1280 inc/options/meta/page.php:8
+#: inc/options/general/page-title.php:1302 inc/options/meta/page.php:8
 msgid "Page Title"
 msgstr "Titre de la page"
 
@@ -5031,14 +5045,14 @@ msgstr "Aller en haut"
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: inc/options/general/page-title.php:303
-#: inc/options/general/page-title.php:336
+#: inc/options/general/page-title.php:325
+#: inc/options/general/page-title.php:358
 #: inc/options/general/posts-listing.php:217
 msgid "Title"
 msgstr "Titre"
 
 #. Translators: %s is the theme name.
-#: admin/helpers/meta-boxes.php:141
+#: admin/helpers/meta-boxes.php:142
 msgid "%s Settings"
 msgstr "Réglages de %s"
 
@@ -5110,13 +5124,13 @@ msgstr "Blocksy Companion"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Vous n’avez pas les droits suffisants pour accéder à cette page."
 
-#: inc/options/general/page-title.php:1249
-#: inc/options/general/page-title.php:1290 inc/options/meta/default.php:142
+#: inc/options/general/page-title.php:1271
+#: inc/options/general/page-title.php:1312 inc/options/meta/default.php:142
 #: inc/options/meta/page.php:141 inc/options/meta/post.php:140
 #: inc/options/single-elements/structure.php:113
 #: static/bundle/customizer-controls.js:2 static/bundle/options.js:2
 #: static/js/options/options/background/ImagePicker.js:150
-#: static/bundle/customizer-controls.js:14790 static/bundle/options.js:12905
+#: static/bundle/customizer-controls.js:14780 static/bundle/options.js:12884
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -5126,7 +5140,7 @@ msgstr "Lire la suite"
 
 #. Theme Name of the theme
 #. Translators: %s is the theme name.
-#: admin/helpers/meta-boxes.php:142
+#: admin/helpers/meta-boxes.php:143
 msgid "Blocksy"
 msgstr "Blocksy"
 

@@ -2,10 +2,10 @@
 
 Contributors: Nayrathemes
 Requires at least: 4.4
-Tested up to: 6.1.1
+Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.5
-Version: 1.5
+Stable tag: 2.4
+Version: 2.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio, editor-style, grid-layout
@@ -118,6 +118,33 @@ Info Hover, Smile, Shadow & All other Images have been used in images folder, Cr
 
 
 == Changelog ==
+
+@version 2.4
+* RSS Block Widget Improved
+
+@version 2.3
+* Sidebar Comment Widget Improvement
+
+@version 2.2
+* Block Widget Styling Improvement
+
+@version 2.1
+* Block Styling Improvement
+
+@version 2.0
+* Styling Improvement
+
+@version 1.9
+* Improved RSS Block Widget
+
+@version 1.8
+* Tested - WP 6.2 Compatibility
+
+@version 1.7
+* Improved Block Style
+
+@version 1.6
+* Improved Blockquote Style
 
 @version 1.5
 * Define Theme Version

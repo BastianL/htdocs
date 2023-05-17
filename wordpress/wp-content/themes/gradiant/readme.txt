@@ -2,10 +2,10 @@
 
 Contributors: Nayrathemes
 Requires at least: 4.4
-Tested up to: 6.1.1
+Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.5
-Version: 1.5
+Stable tag: 2.6
+Version: 2.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
@@ -87,7 +87,12 @@ Source: https://github.com/wp-bootstrap/wp-bootstrap-navwalker
 License -  MIT LICENSE (https://github.com/cristian-ungureanu/customizer-repeater/blob/production/LICENSE)
 Source: https://github.com/cristian-ungureanu/customizer-repeater
 
-11) Screenshot Images
+11) Anime Js
+=================================================================================================
+License -  MIT LICENSE (https://github.com/juliangarnier/anime/blob/master/LICENSE.md)
+Source: https://animejs.com/
+
+12) Screenshot Images
 =================================================================================================
 Screenshot Images
 URL: https://pxhere.com/en/photo/1575609
@@ -95,26 +100,59 @@ https://pxhere.com/en/photo/1633003
 Source: https://pxhere.com
 License: Creative Commons Zero(https://pxhere.com/en/license)
 
-12) Breadcrumb Image
+13) Breadcrumb Image
 =================================================================================================
 Breadcrumb Image
 URL: https://stocksnap.io/photo/business-working-RRJH1KMRMW
 Source: https://stocksnap.io
 License: CC0 Public Domain
 
-13) Footer Image
+14) Footer Image
 =================================================================================================
 Footer Image
 URL: https://stocksnap.io/photo/house-white-F576X4QRGC
 Source: https://stocksnap.io
 License: CC0 Public Domain
 
-14) Image Folder Images
+15) Image Folder Images
 =================================================================================================
 Info Hover, Smile, Shadow & All other Images have been used in images folder, Created by Nayra Themes. Also they are GPL Licensed and free to use and free to redistribute further.
 
 
 == Changelog ==
+
+@version 2.6
+* RSS Block Widget Improved
+
+@version 2.5
+* Sidebar Comment Widget Improvement
+
+@version 2.4
+* Block Widget Styling Improvement
+
+@version 2.3
+* Block Styling Improvement
+
+@version 2.2
+* Fixed: Mobile Site Title Visibility Issue
+
+@version 2.1
+* Styling Improvement
+
+@version 2.0
+* Improved RSS Block Widget
+
+@version 1.9
+* Tested - WP 6.2 Compatibility
+
+@version 1.8
+* Fixed Tilt Effect
+
+@version 1.7
+* Improved Block Style
+
+@version 1.6
+* Improved Blockquote Style
 
 @version 1.5
 * Define Theme Version

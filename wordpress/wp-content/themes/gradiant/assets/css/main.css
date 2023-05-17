@@ -3464,3 +3464,7 @@ figure.gallery-item .gallery-popup-icon a:last-child {
     margin-left: auto;
     margin-right: auto;
 }
+
+blockquote.wp-block-quote.has-text-color p,blockquote.wp-block-quote.has-text-color p var,blockquote.wp-block-quote.has-text-color p cite,blockquote.wp-block-quote.has-text-color cite {
+	color: inherit;
+}

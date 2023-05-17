@@ -1,5 +1,25 @@
 <?php
 
+function blocksy_isolated_get_search_form($args) {
+	if (class_exists('IS_Admin_Public')) {
+		remove_filter(
+			'get_search_form',
+			[\IS_Admin_Public::getInstance(), 'get_search_form'],
+			9999999
+		);
+	}
+
+	get_search_form($args);
+
+	if (class_exists('IS_Admin_Public')) {
+		add_filter(
+			'get_search_form',
+			[\IS_Admin_Public::getInstance(), 'get_search_form'],
+			9999999
+		);
+	}
+}
+
 add_filter(
 	'rest_post_query',
 	function ($args, $request) {

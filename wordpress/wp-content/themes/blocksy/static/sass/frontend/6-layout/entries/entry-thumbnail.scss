@@ -73,8 +73,15 @@
 	}
 
 	@media (hover: hover) {
-		> *:hover .ct-swap {
-			opacity: 1;
+		> *:hover {
+
+			.ct-swap {
+				opacity: 1;
+
+				+ img {
+					opacity: 0;
+				}
+			}
 		}
 	}
 }

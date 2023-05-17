@@ -14,11 +14,12 @@
 ?>
 
 <h1><?= $title; ?></h1>
-	<?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-  
-		<article class="post">
-			<h1><?php the_title(); ?></h1>
-
+<div class="site__blog">
+    <main class="site__content">
+	    <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
+		    <article class="post">
+			    <h1><?php the_title(); ?></h1>
+		    </article>
         	<?php the_post_thumbnail(); ?>
             
             <p class="post__meta">
@@ -26,12 +27,24 @@
                 par <?php the_author(); ?> • <?php comments_number(); ?>
             </p>
             
-      		<?php the_excerpt(); ?>
-              
+      		<?php the_excerpt(); ?> 
       		<p>
                 <a href="<?php the_permalink(); ?>" class="post__link">Lire la suite</a>
             </p>
-		</article>
-
-	<?php endwhile; endif;
-get_footer();
+	    <?php endwhile; endif; ?>
+        <div class="site__navigation">
+	        <div class="site__navigation__prev">
+		        <?php previous_posts_link( 'Page Précédente' ); ?>
+            </div>
+            <div class="site__navigation__next">
+                <?php next_posts_link( 'Page Suivante' ); ?> 
+            </div>
+        </div>
+    </main>
+    <aside>
+        <ul>
+            <?php dynamic_sidebar('blog-sidebar'); ?>
+        </ul>
+    </aside>
+</div>
+<?php get_footer(); ?>

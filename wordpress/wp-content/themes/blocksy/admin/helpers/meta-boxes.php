@@ -106,9 +106,10 @@ class Blocksy_Meta_Boxes {
 							'check_empty' => true
 						]);
 
-
 					if ($descriptor) {
 						$value['styles_descriptor'] = $descriptor;
+					} else {
+						unset($value['styles_descriptor']);
 					}
 
 					if (! empty($value)) {

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-19 20:54:32+0000\n"
+"PO-Revision-Date: 2023-04-27 07:33:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4273,7 +4273,7 @@ msgstr "Lorsque vous aurez pu mettre à jour en utilisant le bouton « Mettre �
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:170
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:185
 msgid "You would have received an email because of this."
-msgstr "Vous auriez reçu un courriel à cause de cela."
+msgstr "Vous auriez reçu un e-mail à cause de cela."
 
 #: wp-admin/includes/class-wp-site-health-auto-updates.php:169
 msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
@@ -14116,6 +14116,11 @@ msgstr "Mettre ce contenu en avant"
 #: wp-admin/includes/class-wp-posts-list-table.php:1963
 msgid "Not Sticky"
 msgstr "Pas mis en avant"
+
+#: wp-admin/includes/class-wp-posts-list-table.php:1959
+#: wp-admin/includes/class-wp-posts-list-table.php:1962
+msgid "Sticky"
+msgstr "Mis en avant"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:1921
 msgid "Allow Pings"

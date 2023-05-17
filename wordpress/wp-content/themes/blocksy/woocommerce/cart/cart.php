@@ -103,7 +103,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 									echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key, $cart_item ); // PHPCS: XSS ok.
 								?>
 
-								<span class="multiply-symbol">×</span>
+								<span class="ct-product-multiply-symbol">×</span>
 
 								<?php
 									if (class_exists('WCS_ATT_Display_Cart')) {

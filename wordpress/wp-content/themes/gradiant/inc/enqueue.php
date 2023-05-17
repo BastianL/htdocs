@@ -34,6 +34,8 @@ function gradiant_scripts() {
 
 	wp_enqueue_script('jquery-ripples', get_template_directory_uri() . '/assets/js/jquery.ripples.min.js', array('jquery'),false, true);
 	
+	wp_enqueue_script('anime-min', get_template_directory_uri() . '/assets/js/anime.min.js', array('jquery'), false, true);
+	
 	wp_enqueue_script('wow-min', get_template_directory_uri() . '/assets/js/wow.min.js', array('jquery'), false, true);
 	
 	wp_enqueue_script('mo', get_template_directory_uri() . '/assets/js/mo.min.js', array('jquery'), false, true);

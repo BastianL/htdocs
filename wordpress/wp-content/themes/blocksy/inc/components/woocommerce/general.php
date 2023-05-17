@@ -345,6 +345,14 @@ add_action('rest_api_init', function () {
 				$price = $product->get_regular_price();
 				$sale = $product->get_sale_price();
 
+				if (
+					! $product->is_type('simple')
+					&&
+					! $product->is_type('external')
+				) {
+					return $product->get_price_html();
+				}
+
 				if ($product->is_taxable()) {
 					if (defined('WC_ABSPATH')) {
 						// WC 3.6+ - Cart and other frontend functions are not included for REST requests.
@@ -405,6 +413,7 @@ add_action('rest_api_init', function () {
 						$price_html . $sale_html
 					) : 0;
 				}
+				
 
 				return $price ? wc_price($price) : 0;
 			},

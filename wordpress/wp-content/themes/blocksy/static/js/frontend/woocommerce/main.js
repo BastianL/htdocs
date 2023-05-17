@@ -32,8 +32,8 @@ export const wooEntryPoints = [
 		...(isTouchDevice()
 			? {}
 			: {
-					trigger: ['hover'],
-			  }),
+				trigger: ['hover'],
+			}),
 	},
 
 	{
@@ -44,8 +44,7 @@ export const wooEntryPoints = [
 
 	{
 		els: () => [
-			...document.querySelectorAll('.ct-ajax-add-to-cart .cart'),
-			...document.querySelectorAll('.ct-floating-bar .cart'),
+			...document.querySelectorAll('.ct-ajax-add-to-cart .cart')
 		],
 		load: () => import('./add-to-cart-single'),
 		trigger: ['submit'],

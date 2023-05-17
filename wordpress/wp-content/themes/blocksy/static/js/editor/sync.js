@@ -108,10 +108,12 @@ if (oldFn) {
 		...args
 	) => {
 		oldFn(...args)
-		setTimeout(() => {
+		const cb = () => {
 			overrideStylesWithAst()
 			performSelectorsReplace()
-		}, 200)
+		}
+
+		;[0, 200, 300, 400, 500].map((time) => setTimeout(cb, time))
 	}
 
 	wp.data.dispatch('core/edit-post').toggleFeature = (...args) => {

@@ -1,3 +1,72 @@
+1.8.85: 2023-05-04
+- Improvement: Breadcrubms device based visibility option
+- Improvement: Better Gutenberg styles output when switching responsive breakpoints
+- Improvement: Global button padding settings affect search block widget
+- Improvement: Search block remove extra border when style is set to "Button Inside"
+- Improvement: Header & footer HTML element - add filter to disable `autop`
+- Improvement: Share box type 1 border option output
+- Improvement: Gutenberg "button" block font-weight modifier doesn't work
+- Fix: Breadcrumbs separator elements color doesn't apply correctly
+- Fix: Courses custom post type does not respect Customizer "posts per page" settings
+
+1.8.84: 2023-04-20
+- Improvement: Single product gallery don't target lightbox if video is clicked
+- Improvement: Remove redundant line from comments section when it is placed right after the author box
+- Improvement: Better in place update of galleries in variable products
+- Improvement: Entry content items spacing
+- Improvement: Filter for changing the `$home_url` in search form
+- Improvement: WooCommerce select2 minor CSS improvements
+- Improvement: Archive cards `entry-excerpt` items spacing
+- Improvement: CSS conflict with WooCommerce new checkbox component
+- Improvement: Breadcrumbs accessibility improvements
+- Fix: Star rating issue when cards placed inside columns block
+- Fix: Author box social icons are not aligned correctly
+- Fix: Search form scrolls the website to top
+
+1.8.83: 2023-04-13
+- Improvement: Shortcode support in related posts module title option
+- Improvement: Better logic for required fields in the comment form
+- Improvement: Better sync logic for spacing values
+- Improvement: Better handle `entry-content` elements spacing
+- Fix: Horizontal line (separator block) default style width issue
+- Fix: Issue with and WooCommerce select2 form and Dokan plugin
+
+1.8.82: 2023-04-06
+- Improvement: Small fixes in CSS injector class for PHP 8.2.4
+- Improvement: Show variable & grouped products price in live search results
+- Improvement: Gradient picker minor UI improvements
+- Improvement: Menu option to enable/disable the desktop responsive menu "More" functionality
+
+1.8.81: 2023-03-30
+- Improvement: Search modal doesn't redirect properly when used with Polylang
+- Improvement: WordPress 6.2 sticky blocks position don't take into consideration the sticky header
+- Improvement: Ivory Search plugin overrides our "live results" feature
+- Improvement: Header row full width calculations break when site frame is enabled
+- Fix: Entry content spacing "None" breaks gallery spacing
+
+1.8.80: 2023-03-27
+- Improvement: Better handling of width calculation in responsive desktop menu login
+- Improvement: Strengthen out dynamic CSS generation for single posts
+- Improvement: Correct behaviour of post_thumbnail_html filter in archive cards
+- Improvement: Compatibility with WordPress 6.2
+- Improvement: Smarter generation of WooCommerce minicart content in header
+- Improvement: Off Canvas Menu "Style" doesn't sync/refresh properly in customizer
+- Improvement: Cart/Checkout buttons from mini cart do not update their links properly with TranslatePress plugin
+
+1.8.79: 2023-03-16
+- Improvement: Add class option for logo element
+- Improvement: WooCommerce my account page buttons spacing
+- Improvement: Add sponsored attribute option to header button
+- Fix: Cart table `th` alignment issue in Safari 15
+- Fix: Header ghost button element height issue
+
+1.8.78: 2023-03-09
+- Improvement: WooCommerce custom quantity input minor CSS improvements
+- Improvement: Better integration with Delicious Recipes plugin
+- Improvement: Better extract meta-box options for blog page
+- Improvement: Add `blocksy:hero:type-2:image:attachment_id` filter
+- Fix: Cart table multiply symbol spacing
+
 1.8.77: 2023-03-02
 - Improvement: Integration between Woocommerce Product Table and quantity inputs
 - Improvement: Social networks smarter email links insertion

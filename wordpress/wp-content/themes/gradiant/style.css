@@ -4,8 +4,8 @@ Theme URI: https://www.nayrathemes.com/gradiant-free/
 Author: Nayra Themes
 Author URI: https://www.nayrathemes.com/
 Description: A powerful next generation theme for upcoming generations and traditional UI that focuses on the color combinations of solid and gradient colors, along with cool animations and attractive features. It's perfect for any type of business. View the demo of Gradiant Pro https://www.nayrathemes.com/demo/pro/?theme=gradiant
-Version: 1.5
-Tested up to: 6.1
+Version: 2.6
+Tested up to: 6.2
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI:  https://www.gnu.org/licenses/gpl-3.0.html
@@ -98,4 +98,42 @@ button.featherlight-close-icon.featherlight-close {
 }
 .wp-block-jetpack-tiled-gallery.is-style-columns .tiled-gallery__item {
     margin-top: 0px;
+}
+.wp-block-table figcaption {
+     text-align: center;
+}
+.sidebar .widget .wp-block-group .wp-block-image {
+	margin-bottom: 0;
+}
+ul.wp-block-rss {
+ 	list-style: disc;
+}
+.has-text-color a:hover, .has-text-color a:focus {
+	color: inherit;
+}
+.entry-content ul:last-child {
+ margin-bottom: 0;
+}
+.wp-block-code.has-text-color code {
+ 	      color: inherit;
+}
+.sidebar .widget .wp-block-group .is-nowrap p {
+ 	padding: 0;
+ }
+.sidebar .widget .wp-block-group .wp-block-latest-comments .wp-block-latest-comments__comment .wp-block-latest-comments__comment-date {
+	padding-top: 0.5rem;
+ 	padding-bottom: 0.5rem;
+ 	font-size: 0.875rem;
+}
+
+/*wp-Block-RSS*/
+     ul.wp-block-rss {
+     list-style: none;
+     margin-left: 0;
+}
+ul.wp-block-rss li.wp-block-rss__item {
+    margin-bottom: 1rem;
+}
+ul.wp-block-rss li.wp-block-rss__item:last-child {
+    margin-bottom: 0;
 }

@@ -3,11 +3,9 @@
 /**
  * Theme Update
  *
- * @package     Astra
- * @author      Astra
- * @copyright   Copyright (c) 2019, Astra
- * @link        https://wpastra.com/
- * @since       Astra 1.0.0
+ * @copyright 2019-present Creative Themes
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @package   Blocksy
  */
 
 class Blocksy_Db_Versioning {
